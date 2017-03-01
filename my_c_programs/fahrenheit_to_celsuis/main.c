@@ -8,11 +8,12 @@
 int main(int argc, char **argv)
 {
     int fahr, celsuis;  // variables
+    int lower, upper, step;
     
     // upper, lower limits and step
-    int lower = 0;
-    int upper = 300;
-    int step = 20;
+    lower = 0;
+    upper = 300;
+    step = 20;
     
     fahr = lower;
     while ( fahr <= upper){
