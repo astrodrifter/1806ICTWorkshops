@@ -18,7 +18,7 @@ int main(int argc, char **argv)
     fahr = lower;
     while ( fahr <= upper){
         celsuis = 5 * (fahr - 32) / 9;
-        printf("%d\t%d\n", fahr, celsuis);
+        printf("%d \t %d\n", fahr, celsuis);
         fahr = fahr + step;
     }
 	

@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=fahrenheit_to_celsuis
+ProjectName            :=arrays
 ConfigurationName      :=Debug
-WorkspacePath          :="/Users/dovetales/Library/Mobile Documents/com~apple~CloudDocs/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/my_c_programs"
-ProjectPath            :="/Users/dovetales/Library/Mobile Documents/com~apple~CloudDocs/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/my_c_programs/fahrenheit_to_celsuis"
+WorkspacePath          :=/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/my_c_programs
+ProjectPath            :=/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/my_c_programs/arrays
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="fahrenheit_to_celsuis.txt"
+ObjectsFileList        :="arrays.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/Users/dovetales/Library/Mobile Documents/com~apple~CloudDocs/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/my_c_programs/fahrenheit_to_celsuis/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/my_c_programs/arrays/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 
