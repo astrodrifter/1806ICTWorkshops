@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Q7_adding - Debug ]----------"
-	@cd "Q7_adding" && "$(MAKE)" -f  "Q7_adding.mk"
+	@echo "----------Building project:[ Q8_rectangle - Debug ]----------"
+	@cd "Q8_rectangle" && "$(MAKE)" -f  "Q8_rectangle.mk"
 clean:
-	@echo "----------Cleaning project:[ Q7_adding - Debug ]----------"
-	@cd "Q7_adding" && "$(MAKE)" -f  "Q7_adding.mk" clean
+	@echo "----------Cleaning project:[ Q8_rectangle - Debug ]----------"
+	@cd "Q8_rectangle" && "$(MAKE)" -f  "Q8_rectangle.mk" clean
