@@ -6,7 +6,7 @@ int main(int argc, char **argv)
 {
     float area, width;
 	printf("Enter rectangle area in m^2 and width.\n");
-    scanf("%f %f\n", &area, &width);
+    scanf("%f %f", &area, &width);
     float height = area/width;
     printf("Height of rectangle = %f m.\n", height);
     
