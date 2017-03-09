@@ -7,7 +7,7 @@ int main(int argc, char **argv)
     scanf("%f %f\n", &height, &width);
     float area = height*width;
     
-    int rows, colm;
+    /*int rows, colm;
     for (rows=0;rows<2;rows++){
         
         int i = 0;
@@ -42,7 +42,7 @@ int main(int argc, char **argv)
             } else {
                 printf("%\t", area);
             }
-            j = j+1;
+            j = j+1;*/
         
             
         }
