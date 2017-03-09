@@ -5,7 +5,8 @@
   <Project Name="boolean" Path="boolean/boolean.project" Active="No"/>
   <Project Name="Q3_sizeOf" Path="sizeOf/sizeOf.project" Active="No"/>
   <Project Name="Q4_charNum" Path="Q4_charNum/Q4_charNum.project" Active="No"/>
-  <Project Name="Q6_bigNumber" Path="Q5_bigNumber/Q5_bigNumber.project" Active="Yes"/>
+  <Project Name="Q6_bigNumber" Path="Q5_bigNumber/Q5_bigNumber.project" Active="No"/>
+  <Project Name="Q7_adding" Path="Q7_adding/Q7_adding.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -15,6 +16,7 @@
       <Project Name="Q3_sizeOf" ConfigName="Debug"/>
       <Project Name="Q4_charNum" ConfigName="Debug"/>
       <Project Name="Q6_bigNumber" ConfigName="Debug"/>
+      <Project Name="Q7_adding" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -24,6 +26,7 @@
       <Project Name="Q3_sizeOf" ConfigName="Release"/>
       <Project Name="Q4_charNum" ConfigName="Release"/>
       <Project Name="Q6_bigNumber" ConfigName="Release"/>
+      <Project Name="Q7_adding" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
