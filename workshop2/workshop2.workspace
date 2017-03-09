@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="workshop2" Database="" Version="10.0.0">
   <Project Name="Q1_usingCount" Path="Q1_usingCount/Q1_usingCount.project" Active="No"/>
-  <Project Name="Q2_readableCode" Path="Q2_readableCode/Q2_readableCode.project" Active="Yes"/>
+  <Project Name="Q2_readableCode" Path="Q2_readableCode/Q2_readableCode.project" Active="No"/>
+  <Project Name="boolean" Path="boolean/boolean.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="Q1_usingCount" ConfigName="Debug"/>
       <Project Name="Q2_readableCode" ConfigName="Debug"/>
+      <Project Name="boolean" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="Q1_usingCount" ConfigName="Release"/>
       <Project Name="Q2_readableCode" ConfigName="Release"/>
+      <Project Name="boolean" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
