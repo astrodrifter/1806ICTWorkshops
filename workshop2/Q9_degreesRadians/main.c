@@ -8,6 +8,6 @@ int main(int argc, char **argv)
 	printf("Enter your angle in degrees.\n");
     scanf("%f", &degrees);
     radians = (degrees * M_PI)/180;
-    printf("Radinas = %f.\n", radians);
+    printf("Radians = %.2f.\n", radians);
 	return 0;
 }
