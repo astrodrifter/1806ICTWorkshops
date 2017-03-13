@@ -11,7 +11,8 @@
   <Project Name="casting" Path="casting/casting.project" Active="No"/>
   <Project Name="Q9_degreesRadians" Path="Q9_degreesRadians/Q9_degreesRadians.project" Active="No"/>
   <Project Name="Q10_seconds2hours" Path="Q10_seconds2hours/Q10_seconds2hours.project" Active="No"/>
-  <Project Name="Q11_addingTime" Path="addingTimein24Hours/addingTimein24Hours.project" Active="Yes"/>
+  <Project Name="Q11_addingTime" Path="addingTimein24Hours/addingTimein24Hours.project" Active="No"/>
+  <Project Name="Q12_solvePolynomial" Path="Q12_solvePolynomial/Q12_solvePolynomial.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -27,6 +28,7 @@
       <Project Name="Q9_degreesRadians" ConfigName="Debug"/>
       <Project Name="Q10_seconds2hours" ConfigName="Debug"/>
       <Project Name="Q11_addingTime" ConfigName="Debug"/>
+      <Project Name="Q12_solvePolynomial" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -42,6 +44,7 @@
       <Project Name="Q9_degreesRadians" ConfigName="Release"/>
       <Project Name="Q10_seconds2hours" ConfigName="Release"/>
       <Project Name="Q11_addingTime" ConfigName="Release"/>
+      <Project Name="Q12_solvePolynomial" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
