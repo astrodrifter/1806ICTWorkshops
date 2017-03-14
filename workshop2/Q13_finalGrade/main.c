@@ -9,7 +9,7 @@ int main(int argc, char **argv)
 {
     //variables
     char grade;
-    float gradeMinScore, myCurrentScore; 
+    float gradeMinScore, myCurrentScore, percent;
 	//Get user's desired grade
     printf("What grade would you like to achive?\n");
     printf("Enter H, D, C, P or F:\n");
@@ -21,9 +21,11 @@ int main(int argc, char **argv)
     //Get user's current grade
     printf("Enter your current grade?\n");
     scanf("%f",&myCurrentScore);
-    
     //Get final exam percent of total mark
+    printf("What percent is your exam worth on your final grade?\n\t25 or 50?");
+    scanf("%f",&percent);
     //calculate
-    //print reult
+    
+    //print result
 	return 0;
 }
