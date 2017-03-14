@@ -6,11 +6,18 @@
 
 int main(int argc, char **argv)
 {
-    double a, b, c, x1, x2;
-    printf("\nEnter values for a, b and c:\n");
-	scanf("%1f %1f %1f", &a, &b, &c);
-    x1 = (-b+(sqrt(pow(b,2)-4*a*c)))/(2*a);
-    x2 = (-b-(sqrt(pow(b,2)-4*a*c)))/(2*a);
-    printf("Solution: x1 = %f, x2 = %f.\n\n", x1, x2);
-	//return 0;
+    //get values
+    double a = 0, b = 0, c = 0, x1 = 0, x2 = 0;
+    printf("\nEnter value for a:\n");
+    scanf("%f",&a);
+    printf("\nEnter value for b:\n");
+    scanf("%f",&b);
+    printf("\nEnter value for c:\n");
+    scanf("%f",&b);
+ 
+	//calculate
+    x1 = (-b + sqrt(b * b - 4 * a * c)) / (2 * a);
+    x2 = (-b - (sqrt(b * b - 4 * a * c))) / (2 * a);
+    printf("Solution: x1 = %.2f, x2 = %.2f.\n\n", x1, x2);
+	return 0;
 }
