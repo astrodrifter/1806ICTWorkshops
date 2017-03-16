@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Q1_nSquared - Debug ]----------"
-	@cd "/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/workshop3/Q1_nSquared" && "$(MAKE)" -f  "Q1_nSquared.mk"
+	@echo "----------Building project:[ Q2_nFactorial - Debug ]----------"
+	@cd "Q2_nFactorial" && "$(MAKE)" -f  "Q2_nFactorial.mk"
 clean:
-	@echo "----------Cleaning project:[ Q1_nSquared - Debug ]----------"
-	@cd "/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/workshop3/Q1_nSquared" && "$(MAKE)" -f  "Q1_nSquared.mk" clean
+	@echo "----------Cleaning project:[ Q2_nFactorial - Debug ]----------"
+	@cd "Q2_nFactorial" && "$(MAKE)" -f  "Q2_nFactorial.mk" clean
