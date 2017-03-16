@@ -13,6 +13,7 @@ int main()
    {
       remainder = t % 10;
       sum       = sum + remainder;
+      //printf("t = %i, ",t);
       t         = t / 10;
    }
  
