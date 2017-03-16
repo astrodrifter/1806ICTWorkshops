@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Q3_sumDigits
+ProjectName            :=Q1_nSquared
 ConfigurationName      :=Debug
 WorkspacePath          :=/Users/Dovetales/Documents/workshop3
-ProjectPath            :=/Users/Dovetales/Documents/workshop3/Q1_sumDigits
+ProjectPath            :=/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/workshop3/Q1_nSquared
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Q3_sumDigits.txt"
+ObjectsFileList        :="Q1_nSquared.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/Users/Dovetales/Documents/workshop3/Q1_sumDigits/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/workshop3/Q1_nSquared/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 
