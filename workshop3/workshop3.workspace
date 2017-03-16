@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="workshop3" Database="" Version="10.0.0">
-  <Project Name="Q2_nFactorial" Path="Q2_nFactorial/Q2_nFactorial.project" Active="Yes"/>
+  <Project Name="Q2_nFactorial" Path="Q2_nFactorial/Q2_nFactorial.project" Active="No"/>
+  <Project Name="Q3_sumDigits" Path="Q3_sumDigits/Q3_sumDigits.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="Q3_sumDigits" ConfigName="Debug"/>
       <Project Name="Q2_nFactorial" ConfigName="Debug"/>
+      <Project Name="Q3_sumDigits" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="Q3_sumDigits" ConfigName="Release"/>
       <Project Name="Q2_nFactorial" ConfigName="Release"/>
+      <Project Name="Q3_sumDigits" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
