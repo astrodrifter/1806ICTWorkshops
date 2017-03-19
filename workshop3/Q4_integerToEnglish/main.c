@@ -1,18 +1,23 @@
 /*takes a integer number and prints each didgit in english*/
 
 #include <stdio.h>
+int getNum(int);
+void printWords(int);
 
-int main(int argc, char **argv) {   
-    // get num
-	int num;
+int getNum(int n) 
+{
     printf("Eneter an integer value:\t");
-    scanf("%i", &num);
-    
-    // mach each didgit to english word
-    // use a while loop that gets each digit with %
+    scanf("%i", &n);
+    return n;
+}
+
+void printWords(int num) 
+{
     int t = num;
     int remainder;
     
+    // mach each didgit to english word
+    // use a while loop that gets each digit with %
     while (t != 0) {
         remainder = t % 10;
         switch(remainder){
@@ -50,5 +55,16 @@ int main(int argc, char **argv) {
       t = t / 10;
    }
    printf("\n");
+}
+
+
+int main(int argc, char **argv) {  
+    
+    
+    // get user integer
+    int num = 0;
+    num = getNum(num);
+    printWords(num);
+    
 	return 0;
 }
