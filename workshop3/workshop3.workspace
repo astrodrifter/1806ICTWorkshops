@@ -2,8 +2,8 @@
 <CodeLite_Workspace Name="workshop3" Database="" Version="10.0.0">
   <Project Name="Q2_nFactorial" Path="Q2_nFactorial/Q2_nFactorial.project" Active="No"/>
   <Project Name="Q3_sumDigits" Path="Q3_sumDigits/Q3_sumDigits.project" Active="No"/>
-  <Project Name="Q5_largestNumber" Path="Q5_largestNumber/Q5_largestNumber.project" Active="No"/>
-  <Project Name="Q4_integerToEnglish" Path="Q4_integerToEnglish/Q4_integerToEnglish.project" Active="Yes"/>
+  <Project Name="Q5_largestNumber" Path="Q5_largestNumber/Q5_largestNumber.project" Active="Yes"/>
+  <Project Name="Q4_integerToEnglish" Path="Q4_integerToEnglish/Q4_integerToEnglish.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
