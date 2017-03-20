@@ -7,6 +7,21 @@ int howManyDigits(int);
 int getNum(int);
 void printWords(int, int);
 
+int main(int argc, char **argv) {  
+    
+    //get number of digits
+    int digits = 0;
+    digits = howManyDigits(digits);
+    
+    // get user integer
+    int num = 0;
+    num = getNum(num);
+    
+    // print words
+    printWords(num, digits);
+    
+	return 0;
+}
 
 int howManyDigits(int digits) {
     printf("How many didgits will your number have?\n");
@@ -73,60 +88,4 @@ void printWords(int num, int digits) {
     printf("\n");
         
 } 
-    /*int t = num;
     
-    printf(" you selcted %i digits.\n", digits);
-    // mach each didgit to english word
-    
-    while (t != 0) {
-        remainder = t % 10;
-        switch(remainder){
-            case 0:
-                printf("Zero ");
-                break;
-            case 1:
-                printf("One ");
-                break;
-            case 2:
-                printf("Two ");
-                break;
-            case 3:
-                printf("Three ");
-                break;
-            case 4:
-                printf("Four ");
-                break;
-            case 5:
-                printf("Five ");
-                break;
-            case 6:
-                printf("Six ");
-                break;
-            case 7:
-                printf("Seven ");
-                break;
-            case 8:
-                printf("Eight ");
-                break;
-            case 9:
-                printf("Nine ");
-                break;
-      }
-      t = t / 10;
-   }
-   printf("\n");*/
-//}
-
-
-int main(int argc, char **argv) {  
-    
-    //get number of digits
-    int digits = 0;
-    digits = howManyDigits(digits);
-    // get user integer
-    int num = 0;
-    num = getNum(num);
-    printWords(num, digits);
-    
-	return 0;
-}
