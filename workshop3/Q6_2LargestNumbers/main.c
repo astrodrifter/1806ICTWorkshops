@@ -33,13 +33,21 @@ void findMaxes(void) {
     }
 	
 	//find 2nd largest
-    int max2 = myArray[0];
-    for(int i = 1; i < howMany; i++){
-        if(myArray[i] > max2  && myArray[i] < max) {
-            max2 = myArray[i];
-        }
-    }
-    printf("Max =  %i. 2nd Max = %i.\n",max,max2);
+	int max2;
+	if(howMany > 1){
+		max2 = myArray[0];
+		for(int i = 1; i < howMany; i++){
+			if(myArray[i] > max2  && myArray[i] < max) {
+				max2 = myArray[i];
+			}
+		}
+	}
+    printf("Largest number =  %i\n",max);
+	if(howMany == 1){
+		printf("No second largest number\n");
+	} else {
+		printf("Second largest number = %i\n", max2);
+	}
     // print result
 }
 
