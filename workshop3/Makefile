@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Q4_integerToEnglish - Debug ]----------"
-	@cd "Q4_integerToEnglish" && "$(MAKE)" -f  "Q4_integerToEnglish.mk"
+	@echo "----------Building project:[ Q6_2LargestNumbers - Debug ]----------"
+	@cd "Q6_2LargestNumbers" && "$(MAKE)" -f  "Q6_2LargestNumbers.mk"
 clean:
-	@echo "----------Cleaning project:[ Q4_integerToEnglish - Debug ]----------"
-	@cd "Q4_integerToEnglish" && "$(MAKE)" -f  "Q4_integerToEnglish.mk" clean
+	@echo "----------Cleaning project:[ Q6_2LargestNumbers - Debug ]----------"
+	@cd "Q6_2LargestNumbers" && "$(MAKE)" -f  "Q6_2LargestNumbers.mk" clean
