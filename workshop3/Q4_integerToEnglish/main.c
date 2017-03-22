@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
+
 int howManyDigits(int);
 int getNum(int);
 void printWords(int, int);
@@ -23,24 +24,33 @@ int main(int argc, char **argv) {
 	return 0;
 }
 
+//Requests how many digits there will be and stores in variable digits
 int howManyDigits(int digits) {
     printf("How many didgits will your number have?\n");
     scanf("%i", &digits);
     return digits;
 }
 
-
+//Gets the integer to be converted
 int getNum(int n) {
     printf("Eneter an integer value:\n");
     scanf("%i", &n);
     return n;
 }
 
-
+//Coverts each digit to words taking the integer (num) 
+//and digits (number of digits) as parameters.
 void printWords(int num, int digits) {
     int index = digits-1;
     int toWord;
-    
+	
+	//handle negatives
+    if(num < 0) {
+		printf("negative ");
+		num = num*-1; //convert to positive
+	}
+	
+	//convert digits to words from left to right.6
     while (index >= 0) {
           toWord = num/(pow(10.0,index));
           
