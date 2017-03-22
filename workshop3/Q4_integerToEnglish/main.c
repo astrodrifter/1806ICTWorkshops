@@ -42,6 +42,7 @@ int getNum(int n) {
 //and digits (number of digits) as parameters.
 void printWords(int num, int digits) {
     int index = digits-1;
+	//int start = 1;
     int toWord;
 	
 	//handle negatives
@@ -52,8 +53,9 @@ void printWords(int num, int digits) {
 	
 	//convert digits to words from left to right.6
     while (index >= 0) {
+	//while (start) {
           toWord = num/(pow(10.0,index));
-          
+          //if (num)
             //if(toWord !=0) {
                 
                 switch(toWord){
@@ -90,6 +92,7 @@ void printWords(int num, int digits) {
                     
                     
                 }
+				printf("num = %i",num);
                 num = num - toWord * pow(10.0,index);
                 index--;
             //}
