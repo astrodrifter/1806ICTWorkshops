@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Q7_acsendingSort - Debug ]----------"
-	@cd "Q7_acsendingSort" && "$(MAKE)" -f  "Q7_acsendingSort.mk"
+	@echo "----------Building project:[ Q8_printCascade - Debug ]----------"
+	@cd "Q8_printCascade" && "$(MAKE)" -f  "Q8_printCascade.mk"
 clean:
-	@echo "----------Cleaning project:[ Q7_acsendingSort - Debug ]----------"
-	@cd "Q7_acsendingSort" && "$(MAKE)" -f  "Q7_acsendingSort.mk" clean
+	@echo "----------Cleaning project:[ Q8_printCascade - Debug ]----------"
+	@cd "Q8_printCascade" && "$(MAKE)" -f  "Q8_printCascade.mk" clean

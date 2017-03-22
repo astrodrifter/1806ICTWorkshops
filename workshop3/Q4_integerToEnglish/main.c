@@ -53,11 +53,8 @@ void printWords(int num, int digits) {
 	
 	//convert digits to words from left to right.6
     while (index >= 0) {
-	//while (start) {
           toWord = num/(pow(10.0,index));
-          //if (num)
-            //if(toWord !=0) {
-                
+          
                 switch(toWord){
                     case 0:
                         printf("Zero ");
@@ -95,7 +92,6 @@ void printWords(int num, int digits) {
 				printf("num = %i",num);
                 num = num - toWord * pow(10.0,index);
                 index--;
-            //}
         
     }
     printf("\n");

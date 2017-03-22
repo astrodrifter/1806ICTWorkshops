@@ -5,7 +5,8 @@
   <Project Name="Q5_largestNumber" Path="Q5_largestNumber/Q5_largestNumber.project" Active="No"/>
   <Project Name="Q4_integerToEnglish" Path="Q4_integerToEnglish/Q4_integerToEnglish.project" Active="No"/>
   <Project Name="Q6_2LargestNumbers" Path="Q6_2LargestNumbers/Q6_2LargestNumbers.project" Active="No"/>
-  <Project Name="Q7_ascendingSort" Path="Q7_acsendingSort/Q7_acsendingSort.project" Active="Yes"/>
+  <Project Name="Q7_ascendingSort" Path="Q7_acsendingSort/Q7_acsendingSort.project" Active="No"/>
+  <Project Name="Q8_printCascade" Path="Q8_printCascade/Q8_printCascade.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -16,6 +17,7 @@
       <Project Name="Q4_integerToEnglish" ConfigName="Debug"/>
       <Project Name="Q6_2LargestNumbers" ConfigName="Debug"/>
       <Project Name="Q7_ascendingSort" ConfigName="Debug"/>
+      <Project Name="Q8_printCascade" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -26,6 +28,7 @@
       <Project Name="Q4_integerToEnglish" ConfigName="Release"/>
       <Project Name="Q6_2LargestNumbers" ConfigName="Release"/>
       <Project Name="Q7_ascendingSort" ConfigName="Release"/>
+      <Project Name="Q8_printCascade" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
