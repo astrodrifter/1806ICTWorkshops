@@ -24,35 +24,36 @@ int main(int argc, char **argv)
 	printf("You entered %i digits.\n", count+1);
 	
 	// sperate digits into an array
-	//convert digits to words from left to right.6
 	int myArray[count];
-    while ( count >= 0) {
-		int i = 0;
-		myArray[i] = x/(pow(10.0,count));
-		x = x - myArray[i] * pow(10.0,count);
+	int power = count;
+	int i = 0;
+    while ( i <= count) {
+		myArray[i] = x/(pow(10.0,power));
+		x = x - myArray[i] * pow(10.0,power);
 		printf("%i\n",myArray[i]);
-		count--;
+		power--;
 		i++;
 	}
+	
+	
 	int j;
-	for (j = 0; j < 6; j++){
-		printf("myArray[0] = %i \n",myArray[j]);
+	for (j = 0; j <= count; j++){
+		printf("myArray[%i] = %i \n",j,myArray[j]);
 	}
 	// now we have digits in sperated in myArray
 	// do sequence acording to value n
-	//for(int j = 0; j <= n; j++){
-	//	printf("%i \n",myArray[j]);
-		//if(j == n){
-		//	j = 0;
-		//	n--;
-		//}
-		
-	//}
+	for(int k = 0; k <= n; k++){
+		printf("%i \n",myArray[k]);
+		if(k == n-1){
+			k = -1;
+			n--;
+		}
+	}
 	
 	return 0;
 }
 
-
+// counts how many digits in the integer.
 int getNumDigits(int x) {
 	int count = 0;
 	while(x != 0) {
