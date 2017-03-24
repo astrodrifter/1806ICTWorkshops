@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="workshop4" Database="" Version="10.0.0">
-  <Project Name="Q1_highestDivisor" Path="Q1_highestDivisor/Q1_highestDivisor.project" Active="Yes"/>
+  <Project Name="Q1_highestDivisor" Path="Q1_highestDivisor/Q1_highestDivisor.project" Active="No"/>
+  <Project Name="greatestCommonDivisor" Path="greatestCommonDivisor/greatestCommonDivisor.project" Active="Yes"/>
+  <Project Name="pin" Path="pin/pin.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="Q1_highestDivisor" ConfigName="Debug"/>
+      <Project Name="greatestCommonDivisor" ConfigName="Debug"/>
+      <Project Name="pin" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="Q1_highestDivisor" ConfigName="Release"/>
+      <Project Name="greatestCommonDivisor" ConfigName="Release"/>
+      <Project Name="pin" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
