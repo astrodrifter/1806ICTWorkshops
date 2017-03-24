@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="workshop4" Database="" Version="10.0.0">
-  <Project Name="Q1_highestDivisor" Path="Q1_highestDivisor/Q1_highestDivisor.project" Active="Yes"/>
+  <Project Name="Q1_highestDivisor" Path="Q1_highestDivisor/Q1_highestDivisor.project" Active="No"/>
   <Project Name="pin" Path="pin/pin.project" Active="No"/>
   <Project Name="computerGuess" Path="computerGuess/computerGuess.project" Active="No"/>
   <Project Name="Q2_leastCommonMultiple" Path="Q2_leastCommonMultiple/Q2_leastCommonMultiple.project" Active="No"/>
-  <Project Name="Q3_primeNumber" Path="Q3_primeNumber/Q3_primeNumber.project"/>
+  <Project Name="Q3_primeNumber" Path="Q3_primeNumber/Q3_primeNumber.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
