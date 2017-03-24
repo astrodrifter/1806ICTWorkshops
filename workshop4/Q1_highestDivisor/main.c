@@ -5,14 +5,21 @@
 
 #include <stdio.h>
 
-
-//find gcd of both
-//find gcd in both
+void getGcd(void);
 
 int main(int argc, char **argv)
 {
-	//enter two numbers
-	int num1 = 0, num2 = 0, gcd = 0, max = 0;
+	getGcd();
+	return 0;
+}
+
+//gcd takes two inputs from user and finds the gcd
+void getGcd(void)
+{
+	//variables
+	int num1, num2, gcd, max;
+	
+	//get input
 	printf("Enter your two numbers:\n");
 	scanf("%i %i", &num1, &num2);
 	
@@ -30,5 +37,4 @@ int main(int argc, char **argv)
 		
 	}
 	printf("gcd = %i\n",gcd);
-	return 0;
 }
