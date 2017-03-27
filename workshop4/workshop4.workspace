@@ -4,7 +4,8 @@
   <Project Name="pin" Path="pin/pin.project" Active="No"/>
   <Project Name="computerGuess" Path="computerGuess/computerGuess.project" Active="No"/>
   <Project Name="Q2_leastCommonMultiple" Path="Q2_leastCommonMultiple/Q2_leastCommonMultiple.project" Active="No"/>
-  <Project Name="Q3_primeNumber" Path="Q3_primeNumber/Q3_primeNumber.project" Active="Yes"/>
+  <Project Name="Q3_primeNumber" Path="Q3_primeNumber/Q3_primeNumber.project" Active="No"/>
+  <Project Name="Q4_perfectNumbers" Path="Q4_perfectNumbers/Q4_perfectNumbers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="computerGuess" ConfigName="Debug"/>
       <Project Name="Q2_leastCommonMultiple" ConfigName="Debug"/>
       <Project Name="Q3_primeNumber" ConfigName="Debug"/>
+      <Project Name="Q4_perfectNumbers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="computerGuess" ConfigName="Release"/>
       <Project Name="Q2_leastCommonMultiple" ConfigName="Release"/>
       <Project Name="Q3_primeNumber" ConfigName="Release"/>
+      <Project Name="Q4_perfectNumbers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
