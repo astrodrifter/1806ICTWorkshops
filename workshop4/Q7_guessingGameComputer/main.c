@@ -11,19 +11,56 @@
 #include <stdio.h>
 
 int getUserNum();
+int computerGuess(int, int);
+int userCheckGuess();
 
 int main(int argc, char **argv)
 {
+	int low = 0, high = 1000, userNum, compGuess, result = 1;
 	//1. get and set users number
-	int userNum = getUserNum();
-	//
-	printf("userNum = %i\n",userNum);
+	userNum = getUserNum();
+	
+	//get computer guess
+	while(result == 1) {
+		compGuess = computerGuess( low, high);
+	
+		//check computer guess
+		result = userCheckGuess();
+	
+		if (result == 1) {
+			high = computerGuess;
+			computerGuess(low, high);
+		} else if (result == 2) {
+			low = computerGuess;
+			computerGuess(low, high);
+		}
+	}
+	
+	printf("HAL guessed correct!!!\n\nof course...\n");
+	
 	return 0;
 }
 
-int getUserNum(){
+int getUserNum() 
+{
 	int userNum;
 	printf("\nPick an integer between 1 and 1000.\nHAL 9000 will try to guess it.\t");
 	scanf("%i",&userNum);
 	return userNum;
+}
+
+int computerGuess(int bottom, int top) 
+{
+	int halGuess = (top - bottom)/2;
+	printf("top %i, bottom %i",top,bottom);
+	printf("\nHAL guessed %i.\n",halGuess);
+	return halGuess;
+}
+
+int userCheckGuess()
+{
+	int result;
+	printf("\nIf HAL guessed right enter 0, too high 1, too low 2.\n");
+	scanf("%i",&result);
+	return result;
 }
