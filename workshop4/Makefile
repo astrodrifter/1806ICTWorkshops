@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Q4_perfectNumbers - Debug ]----------"
-	@cd "Q4_perfectNumbers" && "$(MAKE)" -f  "Q4_perfectNumbers.mk"
+	@echo "----------Building project:[ Q5_coinToss - Debug ]----------"
+	@cd "Q5_coinToss" && "$(MAKE)" -f  "Q5_coinToss.mk"
 clean:
-	@echo "----------Cleaning project:[ Q4_perfectNumbers - Debug ]----------"
-	@cd "Q4_perfectNumbers" && "$(MAKE)" -f  "Q4_perfectNumbers.mk" clean
+	@echo "----------Cleaning project:[ Q5_coinToss - Debug ]----------"
+	@cd "Q5_coinToss" && "$(MAKE)" -f  "Q5_coinToss.mk" clean
