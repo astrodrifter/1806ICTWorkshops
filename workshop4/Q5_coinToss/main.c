@@ -1,6 +1,9 @@
 /*Write a coin tossing program. The program should use a function flipCoin( ) that returns 0 for
 tails and 1 for heads. Use a loop to flip the coin 1000 times, and count the number of times
-each side of the coin appears.*/
+each side of the coin appears.
+
+Dhruva O'Shea - astrodrifter 
+ * 28/03/2-17 */
 
 #include <stdio.h>
 #include <stdlib.h>

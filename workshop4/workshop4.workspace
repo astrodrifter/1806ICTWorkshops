@@ -6,7 +6,8 @@
   <Project Name="Q2_leastCommonMultiple" Path="Q2_leastCommonMultiple/Q2_leastCommonMultiple.project" Active="No"/>
   <Project Name="Q3_primeNumber" Path="Q3_primeNumber/Q3_primeNumber.project" Active="No"/>
   <Project Name="Q4_perfectNumbers" Path="Q4_perfectNumbers/Q4_perfectNumbers.project" Active="No"/>
-  <Project Name="Q5_coinToss" Path="Q5_coinToss/Q5_coinToss.project" Active="Yes"/>
+  <Project Name="Q5_coinToss" Path="Q5_coinToss/Q5_coinToss.project" Active="No"/>
+  <Project Name="Q6_guessingGameUser" Path="Q6_guessingGameUser/Q6_guessingGameUser.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +18,7 @@
       <Project Name="Q3_primeNumber" ConfigName="Debug"/>
       <Project Name="Q4_perfectNumbers" ConfigName="Debug"/>
       <Project Name="Q5_coinToss" ConfigName="Debug"/>
+      <Project Name="Q6_guessingGameUser" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +29,7 @@
       <Project Name="Q3_primeNumber" ConfigName="Release"/>
       <Project Name="Q4_perfectNumbers" ConfigName="Release"/>
       <Project Name="Q5_coinToss" ConfigName="Release"/>
+      <Project Name="Q6_guessingGameUser" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
