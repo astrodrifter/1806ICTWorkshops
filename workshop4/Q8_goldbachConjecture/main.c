@@ -1,46 +1,72 @@
 /*The Goldbach conjecture says that every even integer n that is greater than 2 has the property
-that it is the sum of two prime numbers. Using your solution from Q3, write a program that
-will prove that the conjecture is true for all even integers between two numbers that you will
-input into the program. 
+  that it is the sum of two prime numbers. Using your solution from Q3, write a program that
+  will prove that the conjecture is true for all even integers between two numbers that you will
+  input into the program. 
  
     Dhruva O'Shea 29/03/2017 
 
  */
 
-
-
+/*get user to enter two even numbers
+  for the even numbers prove the conjecture is true
+	from lowest to highest loop adding 2
+		for each even nume - 
+*/
+ 
 #include <stdio.h>
 //prototypes
-int getNum(int);
+int getNum();
+int findConjecture(int);
 int isPrime(int);
 
 
 int main(int argc, char **argv)
 {
 	//variables
-	int num, n = 0;
+	int low, high, i = 0;
 	
-	// get user input
-	num = getNum(n);
+	// get user numbers low end high
+	while(i < 2) {
+		if(i == 0) {
+			low = getNum();
+		} else {
+			high = getNum();
+		i++;
+	}
 	
-	// check if a prime number
-	if(isPrime(num) == 1){
+	for(int i = low; i <= high; i = i+2){
+		findConjecture(i);
+	}
+	/*// check if a prime number
+	if(isPrime(num) == 0){
 		printf("\nYour number is %i and is a prime number.",num);
 	} else {
 		printf("\nYour number is %i and is not a prime number.",num);
-	}
+	}*/
 	
 	return 0;
+	}
 }
 
 //getNum() gets an integer input form user
-int getNum(int n)
+int getNum()
 {
 	int input;
 	printf("Enter an integer:\t");
 	scanf("%i",&input);
-	n = input;
-	return n;
+	return input;
+}
+
+int findConjecture(int num) 
+{
+	int leftOver;
+	for(int i = 2; i < num; i++){
+		leftOver = num-i;
+		if(leftOver == 2 or isPrime(leftOver)){
+			printf("num = %i + %i\n", i, leftOver);
+			return 0;
+		}
+	}
 }
 
 // isPrime() checks if number is prime
