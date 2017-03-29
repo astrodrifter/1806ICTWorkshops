@@ -10,21 +10,34 @@
 
 #include <stdio.h>
 
+//prototypes
 int getUserNum();
 int computerGuess(int, int);
 int userCheckGuess();
 
+
+//main
 int main(int argc, char **argv)
 {
+	//variables
 	int low = 0, high = 1000, userNum, compGuess, result = 1;
 	
-	//1. get and set users number
+	//get and set users number
 	userNum = getUserNum();
 	
-	//get computer guess
+	//This is the heart of the program here
+	//Computer will guess and user repnds with 1 for high and 2 for low or 0 for correct
+	//Once zero is entered loop will finish and so will program
 	while(result != 0) {
+		
+		//computer will guess
 		compGuess = computerGuess(low, high);
+		printf("\n\tHAL guessed %i.\n",compGuess);
+		
+		// user tell if high, low or correct
 		result = userCheckGuess();
+		
+		//based on user respnse conputer keeps guessing or loop is finished
 		if (result == 1) {
 			high = compGuess;
 			result = computerGuess(low, high);
@@ -34,11 +47,15 @@ int main(int argc, char **argv)
 		}
 	}
 	
-	printf("HAL guessed correct!!!\n\nof course...\n");
+	//When user enter 0 at userCheckGuess() computer has got the number.
+	printf("\n\tHAL guessed %i.\n\n",compGuess);
+	printf("HAL guessed correct!!!\n\n\tof course...\n\n");
 	
+	// prgram finishes
 	return 0;
 }
 
+//Gets a number from user for computer to guess
 int getUserNum() 
 {
 	int userNum;
@@ -47,13 +64,14 @@ int getUserNum()
 	return userNum;
 }
 
+// computer guesses based on a simple halving algorythm
 int computerGuess(int bottom, int top) 
 {
 	int halGuess = (top - bottom)/2 + bottom;
-	printf("\n\tHAL guessed %i.\n",halGuess);
 	return halGuess;
 }
 
+// user checks guess and respnds
 int userCheckGuess()
 {
 	int result;
