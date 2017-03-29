@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Q8_goldbachConjecture - Debug ]----------"
-	@cd "Q8_goldbachConjecture" && "$(MAKE)" -f  "Q8_goldbachConjecture.mk"
+	@echo "----------Building project:[ Q9_fibonacci - Debug ]----------"
+	@cd "Q9_fibonacci" && "$(MAKE)" -f  "Q9_fibonacci.mk"
 clean:
-	@echo "----------Cleaning project:[ Q8_goldbachConjecture - Debug ]----------"
-	@cd "Q8_goldbachConjecture" && "$(MAKE)" -f  "Q8_goldbachConjecture.mk" clean
+	@echo "----------Cleaning project:[ Q9_fibonacci - Debug ]----------"
+	@cd "Q9_fibonacci" && "$(MAKE)" -f  "Q9_fibonacci.mk" clean
