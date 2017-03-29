@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Q9_fibonacci - Debug ]----------"
-	@cd "Q9_fibonacci" && "$(MAKE)" -f  "Q9_fibonacci.mk"
+	@echo "----------Building project:[ Q10_decimalToBinary - Debug ]----------"
+	@cd "Q10_decimalToBinary" && "$(MAKE)" -f  "Q10_decimalToBinary.mk"
 clean:
-	@echo "----------Cleaning project:[ Q9_fibonacci - Debug ]----------"
-	@cd "Q9_fibonacci" && "$(MAKE)" -f  "Q9_fibonacci.mk" clean
+	@echo "----------Cleaning project:[ Q10_decimalToBinary - Debug ]----------"
+	@cd "Q10_decimalToBinary" && "$(MAKE)" -f  "Q10_decimalToBinary.mk" clean

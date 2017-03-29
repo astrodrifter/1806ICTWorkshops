@@ -11,7 +11,8 @@
   <Project Name="Q7_guessingGameComputer" Path="Q7_guessingGameComputer/Q7_guessingGameComputer.project" Active="No"/>
   <Project Name="compGuess" Path="compGuess/compGuess.project" Active="No"/>
   <Project Name="Q8_goldbachConjecture" Path="Q8_goldbachConjecture/Q8_goldbachConjecture.project" Active="No"/>
-  <Project Name="Q9_fibonacci" Path="Q9_fibonacci/Q9_fibonacci.project" Active="Yes"/>
+  <Project Name="Q9_fibonacci" Path="Q9_fibonacci/Q9_fibonacci.project" Active="No"/>
+  <Project Name="Q10_decimalToBinary" Path="Q10_decimalToBinary/Q10_decimalToBinary.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -27,6 +28,7 @@
       <Project Name="compGuess" ConfigName="Debug"/>
       <Project Name="Q8_goldbachConjecture" ConfigName="Debug"/>
       <Project Name="Q9_fibonacci" ConfigName="Debug"/>
+      <Project Name="Q10_decimalToBinary" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -42,6 +44,7 @@
       <Project Name="compGuess" ConfigName="Release"/>
       <Project Name="Q8_goldbachConjecture" ConfigName="Release"/>
       <Project Name="Q9_fibonacci" ConfigName="Release"/>
+      <Project Name="Q10_decimalToBinary" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
