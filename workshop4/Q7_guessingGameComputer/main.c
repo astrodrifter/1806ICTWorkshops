@@ -22,11 +22,11 @@ int main(int argc, char **argv)
 	//variables
 	int low = 0, high = 1000, userNum, compGuess, result = 1;
 	
-	//get and set users number
+	//get and set user number
 	userNum = getUserNum();
 	
 	//This is the heart of the program here
-	//Computer will guess and user repnds with 1 for high and 2 for low or 0 for correct
+	//Computer will guess and user responds with 1 for high and 2 for low or 0 for correct
 	//Once zero is entered loop will finish and so will program
 	while(result != 0) {
 		
