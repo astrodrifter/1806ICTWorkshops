@@ -17,22 +17,20 @@ int userCheckGuess();
 int main(int argc, char **argv)
 {
 	int low = 0, high = 1000, userNum, compGuess, result = 1;
+	
 	//1. get and set users number
 	userNum = getUserNum();
 	
 	//get computer guess
-	while(result == 1) {
-		compGuess = computerGuess( low, high);
-	
-		//check computer guess
+	while(result != 0) {
+		compGuess = computerGuess(low, high);
 		result = userCheckGuess();
-	
 		if (result == 1) {
-			high = computerGuess;
-			computerGuess(low, high);
+			high = compGuess;
+			result = computerGuess(low, high);
 		} else if (result == 2) {
-			low = computerGuess;
-			computerGuess(low, high);
+			low = compGuess;
+			result = computerGuess(low, high);
 		}
 	}
 	
@@ -51,16 +49,15 @@ int getUserNum()
 
 int computerGuess(int bottom, int top) 
 {
-	int halGuess = (top - bottom)/2;
-	printf("top %i, bottom %i",top,bottom);
-	printf("\nHAL guessed %i.\n",halGuess);
+	int halGuess = (top - bottom)/2 + bottom;
+	printf("\n\tHAL guessed %i.\n",halGuess);
 	return halGuess;
 }
 
 int userCheckGuess()
 {
 	int result;
-	printf("\nIf HAL guessed right enter 0, too high 1, too low 2.\n");
+	printf("\nIf HAL guessed right enter 0, too high 1, too low 2:\t");
 	scanf("%i",&result);
 	return result;
 }
