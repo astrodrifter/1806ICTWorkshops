@@ -9,7 +9,8 @@
   <Project Name="Q5_coinToss" Path="Q5_coinToss/Q5_coinToss.project" Active="No"/>
   <Project Name="Q6_guessingGameUser" Path="Q6_guessingGameUser/Q6_guessingGameUser.project" Active="No"/>
   <Project Name="Q7_guessingGameComputer" Path="Q7_guessingGameComputer/Q7_guessingGameComputer.project" Active="No"/>
-  <Project Name="compGuess" Path="compGuess/compGuess.project" Active="Yes"/>
+  <Project Name="compGuess" Path="compGuess/compGuess.project" Active="No"/>
+  <Project Name="Q8_goldbachConjecture" Path="Q8_goldbachConjecture/Q8_goldbachConjecture.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -23,6 +24,7 @@
       <Project Name="Q6_guessingGameUser" ConfigName="Debug"/>
       <Project Name="Q7_guessingGameComputer" ConfigName="Debug"/>
       <Project Name="compGuess" ConfigName="Debug"/>
+      <Project Name="Q8_goldbachConjecture" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -36,6 +38,7 @@
       <Project Name="Q6_guessingGameUser" ConfigName="Release"/>
       <Project Name="Q7_guessingGameComputer" ConfigName="Release"/>
       <Project Name="compGuess" ConfigName="Release"/>
+      <Project Name="Q8_goldbachConjecture" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
