@@ -3,29 +3,36 @@ number is found by adding up the two numbers before it. Write a function that wi
 th integer in the Fibonacci series. 
  
  Dhruva O'Shea 29/03/2017
-
+  * 
  * get number
  * for number do fibonacci
  * fibonacci formula Fn = Fn-1 + Fn-2
- 
 */
 
  #include <stdio.h>
  
+//PROTOTYPES
 int getNum();
 int findFibonacci(int);
 
+/MAIN
 int main(int argc, char **argv)
 {
+	//variable
 	int num;
 	
+	//get user input
 	num = getNum();
 	
+	//find fibonacci of num
 	findFibonacci(num);
 	
 	return 0;
-}
+	
+} //program finished
 
+
+//FUNCTIONS
 //get user input number
 int getNum() 
 {
