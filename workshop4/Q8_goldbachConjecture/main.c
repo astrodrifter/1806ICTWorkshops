@@ -29,24 +29,20 @@ int main(int argc, char **argv)
 	while(i < 2) {
 		if(i == 0) {
 			low = getNum();
-		} else {
+		} else if (i == 1) {
 			high = getNum();
+		}
 		i++;
 	}
 	
+	//prove conjecture
 	for(int i = low; i <= high; i = i+2){
 		findConjecture(i);
 	}
-	/*// check if a prime number
-	if(isPrime(num) == 0){
-		printf("\nYour number is %i and is a prime number.",num);
-	} else {
-		printf("\nYour number is %i and is not a prime number.",num);
-	}*/
 	
 	return 0;
-	}
 }
+
 
 //getNum() gets an integer input form user
 int getNum()
@@ -62,8 +58,8 @@ int findConjecture(int num)
 	int leftOver;
 	for(int i = 2; i < num; i++){
 		leftOver = num-i;
-		if(leftOver == 2 or isPrime(leftOver)){
-			printf("num = %i + %i\n", i, leftOver);
+		if(leftOver == 2 | isPrime(leftOver)){
+			printf("%i = %i + %i\n", num, i, leftOver);
 			return 0;
 		}
 	}
