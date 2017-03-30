@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="workshop5Arrays" Database="" Version="10.0.0">
   <Project Name="Q1_sumArray" Path="Q1_sumArray/Q1_sumArray.project" Active="No"/>
-  <Project Name="Q2_maxMinArray" Path="Q2_maxMinArray/Q2_maxMinArray.project" Active="Yes"/>
+  <Project Name="Q2_maxMinArray" Path="Q2_maxMinArray/Q2_maxMinArray.project" Active="No"/>
+  <Project Name="Q3_evenFirst" Path="Q3_evenFirst/Q3_evenFirst.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="Q1_sumArray" ConfigName="Debug"/>
       <Project Name="Q2_maxMinArray" ConfigName="Debug"/>
+      <Project Name="Q3_evenFirst" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="Q1_sumArray" ConfigName="Release"/>
       <Project Name="Q2_maxMinArray" ConfigName="Release"/>
+      <Project Name="Q3_evenFirst" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
