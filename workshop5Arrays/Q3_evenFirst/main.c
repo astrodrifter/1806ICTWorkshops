@@ -11,10 +11,9 @@
   * Steps
   1. get array
   2. rearange array
-   * if myArray[i] is even and myArray[i-1] is not even move myArray[i] left.
- 
+    - if myArray[i] is even and myArray[i-1] is not even move myArray[i] left.
+    - loop through for i < size i++'
  */
-
 
 #include <stdio.h>
 
@@ -32,11 +31,11 @@ int main(int argc, char **argv)
 	}
 	
 	//sort size amount of times
-	for (int j = 0; j < size; j++) {
+	for (int j = 0; j < size; j++) {  //loop through size amount of times
 		int temp;
 		for(int i = 1; i < size; i++) {
-			if(myArray[i]%2 == 0 && myArray[i-1]%2 != 0) {
-				temp = myArray[i - 1];
+			if(myArray[i]%2 == 0 && myArray[i-1]%2 != 0) { //if element i is even and element i-1 is odd
+				temp = myArray[i - 1];                     // shift i left
 				myArray[i - 1] = myArray[i];
 				myArray[i] = temp;
 			} 
