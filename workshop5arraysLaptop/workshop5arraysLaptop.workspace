@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="workshop5arraysLaptop" Database="" Version="10.0.0">
-  <Project Name="Q6_clumps" Path="Q6_clumps/Q6_clumps.project" Active="Yes"/>
+  <Project Name="Q6_clumps" Path="Q6_clumps/Q6_clumps.project" Active="No"/>
+  <Project Name="Q7_zerosChange" Path="Q7_zerosChange/Q7_zerosChange.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="Q6_clumps" ConfigName="Debug"/>
+      <Project Name="Q7_zerosChange" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="Q6_clumps" ConfigName="Release"/>
+      <Project Name="Q7_zerosChange" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

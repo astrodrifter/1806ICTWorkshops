@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Q6_clumps - Debug ]----------"
-	@cd "Q6_clumps" && "$(MAKE)" -f  "Q6_clumps.mk"
+	@echo "----------Building project:[ Q7_zerosChange - Debug ]----------"
+	@cd "Q7_zerosChange" && "$(MAKE)" -f  "Q7_zerosChange.mk"
 clean:
-	@echo "----------Cleaning project:[ Q6_clumps - Debug ]----------"
-	@cd "Q6_clumps" && "$(MAKE)" -f  "Q6_clumps.mk" clean
+	@echo "----------Cleaning project:[ Q7_zerosChange - Debug ]----------"
+	@cd "Q7_zerosChange" && "$(MAKE)" -f  "Q7_zerosChange.mk" clean

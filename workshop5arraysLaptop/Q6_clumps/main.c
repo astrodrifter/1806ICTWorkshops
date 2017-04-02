@@ -1,3 +1,12 @@
+/*Write a program that reads in the size of an array and the array elements (all of which
+are integers). Say that a “clump” in the given array is a series of 2 or more adjacent
+elements of the same value. Your program will print out the number of clumps in the
+given array.
+ * 
+ * Dhruva O'Shea 02/04/17
+ * 
+*/
+
 #include <stdio.h>
 
 int main(int argc, char **argv)
