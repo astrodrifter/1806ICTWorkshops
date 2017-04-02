@@ -25,5 +25,32 @@ int main(int argc, char **argv)
     {
 		scanf("%i",&myArray[i]);
 	}
+    
+    /*
+     * myAlgorithm
+     * 
+     * for each i sum i's before and i's after and check if equal
+     */
+     
+     int count = 0;
+     for(int i = 0; i < size; i++)
+     {
+         int sum1 = 0;
+         for(int j = 0; j < i; j++){
+             sum1 += myArray[j];
+         }
+         int sum2 = 0;
+         for(int k = i + 1; k < size; k++)
+         {
+             sum2 += myArray[k];
+         }
+         
+         if(sum1 == sum2)
+         {
+             count++;
+         }
+     }
+     
+    printf("\nThis array has %i indexes where sum of elements before equal sum of elements after.\n\n")
 	return 0;
 }
