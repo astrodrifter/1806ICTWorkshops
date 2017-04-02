@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Q5_largestNumber - Debug ]----------"
-	@cd "Q5_largestNumber" && "$(MAKE)" -f  "Q5_largestNumber.mk"
+	@echo "----------Building project:[ Q8_printCascade - Debug ]----------"
+	@cd "Q8_printCascade" && "$(MAKE)" -f  "Q8_printCascade.mk"
 clean:
-	@echo "----------Cleaning project:[ Q5_largestNumber - Debug ]----------"
-	@cd "Q5_largestNumber" && "$(MAKE)" -f  "Q5_largestNumber.mk" clean
+	@echo "----------Cleaning project:[ Q8_printCascade - Debug ]----------"
+	@cd "Q8_printCascade" && "$(MAKE)" -f  "Q8_printCascade.mk" clean

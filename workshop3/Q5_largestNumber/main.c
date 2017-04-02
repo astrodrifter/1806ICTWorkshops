@@ -20,7 +20,7 @@ void findMax(void) {
     //create array and loop inputs
     int myArray[howMany];
     for(int i = 0; i < howMany; i++){
-        printf("Enter number %i: ",i);
+        printf("Enter number %i: ",i+1);
         scanf("%i", &myArray[i]);
     }
     

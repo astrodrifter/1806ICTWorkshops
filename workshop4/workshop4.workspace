@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="workshop4" Database="" Version="10.0.0">
+  <Project Name="Q1_highestDivisor" Path="Q1_highestDivisor/Q1_highestDivisor.project" Active="No"/>
+  <Project Name="pin" Path="pin/pin.project" Active="No"/>
+  <Project Name="computerGuess" Path="computerGuess/computerGuess.project" Active="No"/>
+  <Project Name="Q2_leastCommonMultiple" Path="Q2_leastCommonMultiple/Q2_leastCommonMultiple.project" Active="No"/>
+  <Project Name="Q3_primeNumber" Path="Q3_primeNumber/Q3_primeNumber.project" Active="No"/>
+  <Project Name="Q4_perfectNumbers" Path="Q4_perfectNumbers/Q4_perfectNumbers.project" Active="No"/>
+  <Project Name="Q5_coinToss" Path="Q5_coinToss/Q5_coinToss.project" Active="No"/>
+  <Project Name="Q6_guessingGameUser" Path="Q6_guessingGameUser/Q6_guessingGameUser.project" Active="No"/>
+  <Project Name="Q7_guessingGameComputer" Path="Q7_guessingGameComputer/Q7_guessingGameComputer.project" Active="No"/>
+  <Project Name="compGuess" Path="compGuess/compGuess.project" Active="No"/>
+  <Project Name="Q8_goldbachConjecture" Path="Q8_goldbachConjecture/Q8_goldbachConjecture.project" Active="No"/>
+  <Project Name="Q9_fibonacci" Path="Q9_fibonacci/Q9_fibonacci.project" Active="No"/>
+  <Project Name="Q10_decimalToBinary" Path="Q10_decimalToBinary/Q10_decimalToBinary.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Q1_highestDivisor" ConfigName="Debug"/>
+      <Project Name="pin" ConfigName="Debug"/>
+      <Project Name="computerGuess" ConfigName="Debug"/>
+      <Project Name="Q2_leastCommonMultiple" ConfigName="Debug"/>
+      <Project Name="Q3_primeNumber" ConfigName="Debug"/>
+      <Project Name="Q4_perfectNumbers" ConfigName="Debug"/>
+      <Project Name="Q5_coinToss" ConfigName="Debug"/>
+      <Project Name="Q6_guessingGameUser" ConfigName="Debug"/>
+      <Project Name="Q7_guessingGameComputer" ConfigName="Debug"/>
+      <Project Name="compGuess" ConfigName="Debug"/>
+      <Project Name="Q8_goldbachConjecture" ConfigName="Debug"/>
+      <Project Name="Q9_fibonacci" ConfigName="Debug"/>
+      <Project Name="Q10_decimalToBinary" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Q1_highestDivisor" ConfigName="Release"/>
+      <Project Name="pin" ConfigName="Release"/>
+      <Project Name="computerGuess" ConfigName="Release"/>
+      <Project Name="Q2_leastCommonMultiple" ConfigName="Release"/>
+      <Project Name="Q3_primeNumber" ConfigName="Release"/>
+      <Project Name="Q4_perfectNumbers" ConfigName="Release"/>
+      <Project Name="Q5_coinToss" ConfigName="Release"/>
+      <Project Name="Q6_guessingGameUser" ConfigName="Release"/>
+      <Project Name="Q7_guessingGameComputer" ConfigName="Release"/>
+      <Project Name="compGuess" ConfigName="Release"/>
+      <Project Name="Q8_goldbachConjecture" ConfigName="Release"/>
+      <Project Name="Q9_fibonacci" ConfigName="Release"/>
+      <Project Name="Q10_decimalToBinary" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
