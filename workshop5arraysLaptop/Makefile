@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Q7_zerosChange - Debug ]----------"
-	@cd "Q7_zerosChange" && "$(MAKE)" -f  "Q7_zerosChange.mk"
+	@echo "----------Building project:[ Q8_indexSumEqual - Debug ]----------"
+	@cd "Q8_indexSumEqual" && "$(MAKE)" -f  "Q8_indexSumEqual.mk"
 clean:
-	@echo "----------Cleaning project:[ Q7_zerosChange - Debug ]----------"
-	@cd "Q7_zerosChange" && "$(MAKE)" -f  "Q7_zerosChange.mk" clean
+	@echo "----------Cleaning project:[ Q8_indexSumEqual - Debug ]----------"
+	@cd "Q8_indexSumEqual" && "$(MAKE)" -f  "Q8_indexSumEqual.mk" clean

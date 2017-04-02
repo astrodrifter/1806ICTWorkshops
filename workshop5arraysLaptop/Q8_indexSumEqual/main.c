@@ -51,6 +51,6 @@ int main(int argc, char **argv)
          }
      }
      
-    printf("\nThis array has %i indexes where sum of elements before equal sum of elements after.\n\n")
+    printf("\nThis array has %i indexes where sum of elements before\n equal sum of elements after.\n\n",count);
 	return 0;
 }
