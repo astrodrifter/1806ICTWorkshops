@@ -3,7 +3,8 @@
   <Project Name="Q6_clumps" Path="Q6_clumps/Q6_clumps.project" Active="No"/>
   <Project Name="Q7_zerosChange" Path="Q7_zerosChange/Q7_zerosChange.project" Active="No"/>
   <Project Name="Q8_indexSumEqual" Path="Q8_indexSumEqual/Q8_indexSumEqual.project" Active="No"/>
-  <Project Name="Q9_sum2Darrays" Path="Q9_sum2Darrays/Q9_sum2Darrays.project" Active="Yes"/>
+  <Project Name="Q9_sum2Darrays" Path="Q9_sum2Darrays/Q9_sum2Darrays.project" Active="No"/>
+  <Project Name="Q10_golfGame" Path="Q10_golfGame/Q10_golfGame.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="Q7_zerosChange" ConfigName="Debug"/>
       <Project Name="Q8_indexSumEqual" ConfigName="Debug"/>
       <Project Name="Q9_sum2Darrays" ConfigName="Debug"/>
+      <Project Name="Q10_golfGame" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="Q7_zerosChange" ConfigName="Release"/>
       <Project Name="Q8_indexSumEqual" ConfigName="Release"/>
       <Project Name="Q9_sum2Darrays" ConfigName="Release"/>
+      <Project Name="Q10_golfGame" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
