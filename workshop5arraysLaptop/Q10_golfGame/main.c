@@ -35,13 +35,15 @@ int main(int argc, char **argv)
         
     }
     
-    // print par scores (testing)
+    //print par scores (testing)
+    printf("par for each hole,\n");
     for(int i = 0; i < HOLES; i++)
     {
         
         printf("%i ",parScores[i]);
     }
     printf("\n");
+     
     
     //2. generate 2D array player scores
     for(int i = 0; i < PLAYERS; i++)
@@ -57,7 +59,9 @@ int main(int argc, char **argv)
         }
     }
     
+    
     //print playerscores (testing)
+    printf("player score each hole,\n");
     for(int i = 0; i < PLAYERS; i++)
     {
         for(int j = 0; j < HOLES; j++)
@@ -66,6 +70,20 @@ int main(int argc, char **argv)
         }
         printf("\n");
     }
+    
+    
+    //3. sum each palyers score
+    for(int i = 0; i < PLAYERS; i++)
+    {
+        int sum = 0;
+        for(int j = 0; j < HOLES; j++)
+        {
+            sum += playerScores[i][j];
+        }
+        printf("player %i total score = %i\n",i+1,sum);
+    }
+    
+    
     
     /* address
     char ch = 'A';
