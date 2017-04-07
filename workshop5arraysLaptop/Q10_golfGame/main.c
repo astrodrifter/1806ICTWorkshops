@@ -18,10 +18,13 @@
 #include <stdio.h>
 int HOLES = 18;
 int PLAYERS = 3;
+
 int main(int argc, char **argv)
 {
+    srand(time());
+    
     // variables
-    int parScores[HOLES], playerScores[PLAYERS][HOLES];
+    int parScores[HOLES], playerScores[PLAYERS][HOLES], totalScores[3];
     
 	//1. rand() a 1D array par for 18 hole
     for(int i = 0; i < HOLES; i++)
@@ -80,10 +83,21 @@ int main(int argc, char **argv)
         {
             sum += playerScores[i][j];
         }
+        totalScores[i] = sum;
         printf("player %i total score = %i\n",i+1,sum);
     }
     
-    
+    //find winner
+    int i, min = 18*10, player;
+    for(i = 0; i < 3; i++)
+    {
+        if(totalScores[i] < min)
+        {
+            min = totalScores[i];
+            player = i;
+        }
+    }
+    printf("The winner of the game is player %i with a score of %i,\n",player+1,totalScores[player]);
     
     /* address
     char ch = 'A';
