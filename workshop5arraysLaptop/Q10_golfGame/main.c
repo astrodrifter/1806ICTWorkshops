@@ -16,6 +16,7 @@
  * */
  
 #include <stdio.h>
+#include <math.h>
 int HOLES = 18;
 int PLAYERS = 3;
 
@@ -57,6 +58,10 @@ int main(int argc, char **argv)
             if (r == 0)
             {
                 r = rand()%10;
+                    if (r == 0)
+                {
+                    r = rand()%10;
+                }
             }
             playerScores[i][j] = r;
         }
@@ -99,6 +104,20 @@ int main(int argc, char **argv)
     }
     printf("The winner of the game is player %i with a score of %i,\n",player+1,totalScores[player]);
     
+    
+    // find avergae for each hole
+    for(int i = 0; i < HOLES; i++)
+    {
+        double holeSum = 0, avg = 0;
+        for(int j = 0; j < PLAYERS; j++)
+        {
+             holeSum = playerScores[i][j];
+             holeSum = 6;
+             printf("holeSum = %i\n",holeSum);
+        }
+        avg = roundf(holeSum/PLAYERS);
+        printf("Average score for hole %i = %d.\n",i+1,avg);
+    }
     /* address
     char ch = 'A';
     printf("%p\n",&ch); //hex adress
