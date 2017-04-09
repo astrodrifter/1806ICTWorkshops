@@ -106,13 +106,12 @@ int main(int argc, char **argv)
     
     
     // find avergae for each hole
-    for(int i = 0; i < HOLES; i++)
+    for(int j = 0; j < HOLES; j++)
     {
         double holeSum = 0, avg = 0;
-        for(int j = 0; j < PLAYERS; j++)
+        for(int i = 0; i < PLAYERS; i++)
         {
-             holeSum = playerScores[i][j];
-             holeSum = 6;
+             holeSum += playerScores[i][j];
              printf("holeSum = %i\n",holeSum);
         }
         avg = roundf(holeSum/PLAYERS);
