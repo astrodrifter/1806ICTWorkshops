@@ -38,7 +38,8 @@ int main(int argc, char **argv)
     swap2(&x, &y); // give address of x and y
     printf("%d %d\n", x, y);
     
-    //sum using pointers
+    //sum using pointers 
+    // use for workshop 6
     int h = 1, i = 2, j;
     sum(&h, &i, &j);
     printf("%d + %d = %d\n", h, i, j);
