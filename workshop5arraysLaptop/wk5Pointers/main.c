@@ -3,6 +3,7 @@
 //prototypes
 void swap1(int a, int b);
 void swap2(int* a, int* b);
+void sum(int *xPtr, int *yPtr, int *zPtr);
     
 int main(int argc, char **argv)
 {
@@ -37,7 +38,10 @@ int main(int argc, char **argv)
     swap2(&x, &y); // give address of x and y
     printf("%d %d\n", x, y);
     
-    
+    //sum using pointers
+    int h = 1, i = 2, j;
+    sum(&h, &i, &j);
+    printf("%d + %d = %d\n", h, i, j);
     
     
 	return 0;
@@ -59,4 +63,9 @@ void swap2(int* a, int* b)
     *a = *b;
     *b = tmp;
     return;
+}
+
+void sum(int *hPtr, int *iPtr, int *jPtr)
+{
+    *jPtr = *hPtr + *iPtr;
 }
