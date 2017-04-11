@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Q10_golfGame - Debug ]----------"
-	@cd "Q10_golfGame" && "$(MAKE)" -f  "Q10_golfGame.mk"
+	@echo "----------Building project:[ wk5Pointers - Debug ]----------"
+	@cd "wk5Pointers" && "$(MAKE)" -f  "wk5Pointers.mk"
 clean:
-	@echo "----------Cleaning project:[ Q10_golfGame - Debug ]----------"
-	@cd "Q10_golfGame" && "$(MAKE)" -f  "Q10_golfGame.mk" clean
+	@echo "----------Cleaning project:[ wk5Pointers - Debug ]----------"
+	@cd "wk5Pointers" && "$(MAKE)" -f  "wk5Pointers.mk" clean

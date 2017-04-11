@@ -117,11 +117,7 @@ int main(int argc, char **argv)
         avg = roundf(holeSum/PLAYERS);
         printf("Average score for hole %i = %d.\n",i+1,avg);
     }
-    /* address
-    char ch = 'A';
-    printf("%p\n",&ch); //hex adress
-    printf("%u\n",&ch); //decimal address
-     */
+    
      
 	return 0;
 }
