@@ -5,7 +5,8 @@
   <Project Name="Q8_indexSumEqual" Path="Q8_indexSumEqual/Q8_indexSumEqual.project" Active="No"/>
   <Project Name="Q9_sum2Darrays" Path="Q9_sum2Darrays/Q9_sum2Darrays.project" Active="No"/>
   <Project Name="Q10_golfGame" Path="Q10_golfGame/Q10_golfGame.project" Active="No"/>
-  <Project Name="wk5Pointers" Path="wk5Pointers/wk5Pointers.project" Active="Yes"/>
+  <Project Name="wk5Pointers" Path="wk5Pointers/wk5Pointers.project" Active="No"/>
+  <Project Name="wk5PointersArrays" Path="wk5PointersArrays/wk5PointersArrays.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -15,6 +16,7 @@
       <Project Name="Q9_sum2Darrays" ConfigName="Debug"/>
       <Project Name="Q10_golfGame" ConfigName="Debug"/>
       <Project Name="wk5Pointers" ConfigName="Debug"/>
+      <Project Name="wk5PointersArrays" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -24,6 +26,7 @@
       <Project Name="Q9_sum2Darrays" ConfigName="Release"/>
       <Project Name="Q10_golfGame" ConfigName="Release"/>
       <Project Name="wk5Pointers" ConfigName="Release"/>
+      <Project Name="wk5PointersArrays" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
