@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+//prototypes
+void swap1(int a, int b);
+void swap2(int* a, int* b);
+    
 int main(int argc, char **argv)
 {
     char ch = 'A';
@@ -20,9 +24,39 @@ int main(int argc, char **argv)
     fltPtr = &f;
     printf("%f\n",*fltPtr); // print what fltPtr points to
     
-    //notes on pointers
+    // notes on pointers
     // assigned unused poiters to NULL
+    
+    // bad swap verses good swap
+    //bad swap
+    int x = 1, y = 2;
+    swap1(x, y); // for some reason not working.
+    printf("%d %d\n", x, y);
+    
+    //good swap
+    swap2(&x, &y); // give address of x and y
+    printf("%d %d\n", x, y);
+    
+    
     
     
 	return 0;
+}
+
+void swap1(int a, int b)
+{
+    int tmp;
+    tmp = a;
+    a = b;
+    b = tmp;
+    return;
+}
+
+void swap2(int* a, int* b)
+{
+    int tmp;
+    tmp = *a;
+    *a = *b;
+    *b = tmp;
+    return;
 }
