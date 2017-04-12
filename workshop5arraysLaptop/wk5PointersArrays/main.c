@@ -41,12 +41,16 @@ int main()
     }
     
     // how many bits?
+    // test by using int or double instead of char
     printf("\n Example of how many bits in a pointer.\n");
     char x[5];
     char *ptr = NULL;
     ptr = *x;
-    printf("Size of pointer = %u bits\n",sizeof(ptr));
-    
+    printf("Size of pointer = %u bits\n",sizeof(ptr)); //prints 8
+    printf("Size of array x = %u\n", sizeof(x)); //prints 5
+    printf("Size of address x = %u\n", sizeof(&x)); //prints 8
+    printf("%u\n",ptr); // i got 0 his got a large number
+    printf("%u\n",ptr+1); //mine got 1 his got a lage number plus 1
  return 0;
 }
 

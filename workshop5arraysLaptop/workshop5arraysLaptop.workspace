@@ -6,7 +6,8 @@
   <Project Name="Q9_sum2Darrays" Path="Q9_sum2Darrays/Q9_sum2Darrays.project" Active="No"/>
   <Project Name="Q10_golfGame" Path="Q10_golfGame/Q10_golfGame.project" Active="No"/>
   <Project Name="wk5Pointers" Path="wk5Pointers/wk5Pointers.project" Active="No"/>
-  <Project Name="wk5PointersArrays" Path="wk5PointersArrays/wk5PointersArrays.project" Active="Yes"/>
+  <Project Name="wk5PointersArrays" Path="wk5PointersArrays/wk5PointersArrays.project" Active="No"/>
+  <Project Name="wk5DynMemAllocation" Path="wk5DynMemAllocation/wk5DynMemAllocation.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +18,7 @@
       <Project Name="Q10_golfGame" ConfigName="Debug"/>
       <Project Name="wk5Pointers" ConfigName="Debug"/>
       <Project Name="wk5PointersArrays" ConfigName="Debug"/>
+      <Project Name="wk5DynMemAllocation" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +29,7 @@
       <Project Name="Q10_golfGame" ConfigName="Release"/>
       <Project Name="wk5Pointers" ConfigName="Release"/>
       <Project Name="wk5PointersArrays" ConfigName="Release"/>
+      <Project Name="wk5DynMemAllocation" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
