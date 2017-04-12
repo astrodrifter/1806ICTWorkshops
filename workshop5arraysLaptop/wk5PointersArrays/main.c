@@ -40,6 +40,13 @@ int main()
         printf("nums[%d] = %d\n", i, nums[i]);
     }
     
+    // how many bits?
+    printf("\n Example of how many bits in a pointer.\n");
+    char x[5];
+    char *ptr = NULL;
+    ptr = *x;
+    printf("Size of pointer = %u bits\n",sizeof(ptr));
+    
  return 0;
 }
 
