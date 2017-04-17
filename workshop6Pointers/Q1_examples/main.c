@@ -17,6 +17,10 @@
 
 int main(int argc, char **argv)
 {
+	// (a)
+	char next = 'B', current = 'y', *ptr;
+	
+	
 	printf("hello world\n");
 	return 0;
 }
