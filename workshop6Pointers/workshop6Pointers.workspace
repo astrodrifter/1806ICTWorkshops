@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="workshop6Pointers" Database="" Version="10.0.0">
-  <Project Name="Q1_examples" Path="Q1_examples/Q1_examples.project" Active="Yes"/>
+  <Project Name="Q1_examples" Path="Q1_examples/Q1_examples.project" Active="No"/>
   <Project Name="pointersExamples1" Path="pointersExamples1/pointersExamples1.project" Active="No"/>
   <Project Name="pointersArraysExamples" Path="pointersExamples2/pointersExamples2.project" Active="No"/>
+  <Project Name="Q2" Path="Q2/Q2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="Q1_examples" ConfigName="Debug"/>
       <Project Name="pointersExamples1" ConfigName="Debug"/>
       <Project Name="pointersArraysExamples" ConfigName="Debug"/>
+      <Project Name="Q2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="Q1_examples" ConfigName="Release"/>
       <Project Name="pointersExamples1" ConfigName="Release"/>
       <Project Name="pointersArraysExamples" ConfigName="Release"/>
+      <Project Name="Q2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
