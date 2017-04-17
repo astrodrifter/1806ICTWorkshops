@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="workshop6Pointers" Database="" Version="10.0.0">
-  <Project Name="Q1_examples" Path="Q1_examples/Q1_examples.project" Active="No"/>
-  <Project Name="pointersExamples1" Path="pointersExamples1/pointersExamples1.project" Active="Yes"/>
-  <Project Name="pointersArraysExamples" Path="pointersExamples2/pointersExamples2.project"/>
+  <Project Name="Q1_examples" Path="Q1_examples/Q1_examples.project" Active="Yes"/>
+  <Project Name="pointersExamples1" Path="pointersExamples1/pointersExamples1.project" Active="No"/>
+  <Project Name="pointersArraysExamples" Path="pointersExamples2/pointersExamples2.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

@@ -17,10 +17,26 @@
 
 int main(int argc, char **argv)
 {
-	// (a)
-	char next = 'B', current = 'y', *ptr;
+	// (a), (b), (c)
+	char next = 'B', current = 'y', *ptr = NULL;
 	
+	// (d)
+	ptr = &current;
 	
-	printf("hello world\n");
+	// (e)
+	*ptr = '0';
+	
+	// (f)
+	ptr = &next;
+	
+	// (g)
+	*ptr = 'd';
+	
+	// (h)
+	printf("%i\n",ptr);
+	
+	// (i) current = '0' = 48 and next = 'd' = 100;
+	printf("current = %i, next = %i\n",current, next);
+	
 	return 0;
 }
