@@ -28,7 +28,6 @@ int main(int argc, char **argv)
 	for(int i = 0; i < size; i++) {
 		
 		// find 3 and store next element in temp
-		// replace next element with 4
 		int temp;
 		if(myArray[i] == 3 && myArray[i+1] != 4) {
 			temp = myArray[i+1];
@@ -37,7 +36,7 @@ int main(int argc, char **argv)
 			for(int j = 0; j < size; j++) {
 				if(myArray[j] == 4 && myArray[j-1] != 3 ) {
 					myArray[j] = temp;
-					myArray[i+1] = 4;
+					myArray[i+1] = 4; // replace next element with 4
 					break;
 				}
 			}
