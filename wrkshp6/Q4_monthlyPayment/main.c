@@ -36,32 +36,66 @@
  *      (4)   "       MP
  * */
 
-
-#include <stdio.h>
-#include <math.h>
-
-int main(int argc, char **argv)
+#include <stdio.h> #include <math.h>
+void inputInfo( double *amountPtr, double *yearlyRatePtr, int *nMonthsPtr )
 {
-    float principle, interestPerAnnum, period;
-    printf("Enter your principle loan:\n");
-    scanf("%f",&principle);
-    printf("Enter your interest rate per year:\n");
-    scanf("%f",&interestPerAnnum);
-    printf("Enter the period in months you will repay:\n");
-    scanf("%f",&period);
+    printf("Amount of loan (Principal)? "); scanf("%lf", amountPtr);
+    printf("Interest rate per year (in percent)? "); scanf("%lf", yearlyRatePtr);
+    printf("Number of months to amortize loan? ");
+    scanf("%d", nMonthsPtr); 
+}
+
+int notValidInput(double amount, double yearlyRate, int nmonths) 
+{
+    if (amount<=0 || yearlyRate <=0 || yearlyRate > 100 || nmonths <= 0)
+    {
+        return 1; 
+    } else 
+    {
+        return 0;
+    }
+}
+
+double computeMonthlyRate(double yearlyRate) 
+{
+    return (yearlyRate/(1200.0)); 
+}
+
+void computeMonthlyPayment(double amount, double monthlyRate, double *monthlyPaymentPtr, int nmonths)
+{
+    double p; double q;
+    p = pow((1+monthlyRate), (double)nmonths); q = p/(p-1);
+    *monthlyPaymentPtr = (amount * monthlyRate * q); }
+    void printInfo(double amount, double yearlyRate, int nmonths, double monthlyRate, double monthlyPayment)
+{
     
-    //Calculate
-    float interestPerMonth, P, Q, monthlyPayment;
-    //(1)
-    interestPerMonth = interestPerAnnum/(12*100);
-    //(2)
-    P = pow((1 + interestPerMonth),period);
-    //(3)
-    Q = P/(P-1);
-    //(4)
-    monthlyPayment = principle * interestPerMonth * Q;
- 
-    printf("Monthly Payment = %f\n",monthlyPayment);
-    
-	return 0;
+    printf("\n");
+    printf("Amount of loan:\t\t\t%.2f\n", amount); 
+    printf("Interest rate/year (percent):\t%.2f\n", yearlyRate); 
+    printf("Interest rate/month (decimal):\t%.6f\n", monthlyRate);
+    printf("Number of month:\t\t%d\n", nmonths); 
+    printf("Monthly payment:\t\t%.2f\n", monthlyPayment);
+}
+
+int main() 
+{
+    double amountLoan;
+    double interestRateYearly; 
+    int numMonths;
+    double interestRateMonthly; 
+    double monthlyPayment;
+    // Get input from user
+    inputInfo(&amountLoan, &interestRateYearly, &numMonths);
+    // Check if input values are invalid
+    if (notValidInput(amountLoan, interestRateYearly, numMonths))
+    {
+        printf("Invalid input"); return 1;
+    }
+    // Compute monthly interest rate
+    interestRateMonthly = computeMonthlyRate(interestRateYearly);
+    // Compute monthly payment
+    computeMonthlyPayment(amountLoan, interestRateMonthly, &monthlyPayment, numMonths);
+    // print loan info
+    printInfo(amountLoan, interestRateYearly, numMonths, interestRateMonthly, monthlyPayment);
+    return 0; 
 }
