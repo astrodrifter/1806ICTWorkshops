@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="week7Strings" Database="" Version="10.0.0">
-  <Project Name="StringsLectureExamples" Path="StringsLectureExamples/StringsLectureExamples.project" Active="Yes"/>
+  <Project Name="StringsLectureExamples" Path="StringsLectureExamples/StringsLectureExamples.project" Active="No"/>
+  <Project Name="greeting" Path="greeting/greeting.project" Active="No"/>
+  <Project Name="arrayOfStrings" Path="arrayOfStrings/arrayOfStrings.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="StringsLectureExamples" ConfigName="Debug"/>
+      <Project Name="greeting" ConfigName="Debug"/>
+      <Project Name="arrayOfStrings" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="StringsLectureExamples" ConfigName="Release"/>
+      <Project Name="greeting" ConfigName="Release"/>
+      <Project Name="arrayOfStrings" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
