@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="week7Strings" Database="" Version="10.0.0">
   <Project Name="StringsLectureExamples" Path="StringsLectureExamples/StringsLectureExamples.project" Active="No"/>
   <Project Name="greeting" Path="greeting/greeting.project" Active="No"/>
-  <Project Name="arrayOfStrings" Path="arrayOfStrings/arrayOfStrings.project" Active="Yes"/>
+  <Project Name="arrayOfStrings" Path="arrayOfStrings/arrayOfStrings.project" Active="No"/>
+  <Project Name="allocatingMemory" Path="allocatingMemory/allocatingMemory.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="StringsLectureExamples" ConfigName="Debug"/>
       <Project Name="greeting" ConfigName="Debug"/>
       <Project Name="arrayOfStrings" ConfigName="Debug"/>
+      <Project Name="allocatingMemory" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="StringsLectureExamples" ConfigName="Release"/>
       <Project Name="greeting" ConfigName="Release"/>
       <Project Name="arrayOfStrings" ConfigName="Release"/>
+      <Project Name="allocatingMemory" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
