@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/* (1) Get dates
+/* My solution
+ * (1) Get dates
  * (2) Get days passed in the year of dates given
  *      (a) use ana array with days of each month
  *      (b) check if leep year change feb to 29 days
@@ -82,8 +83,6 @@ int main(int argc, char **argv)
     
     //print answer
     printf("total days = %i days\n",totalDays);
-    
-	
     
 	return 0;
 }
