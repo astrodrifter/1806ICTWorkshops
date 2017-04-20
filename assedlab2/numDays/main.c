@@ -43,18 +43,13 @@ int main(int argc, char **argv)
 {
     //inputs year 1
     int year1, month1, dayOfMonth1, daysInCurrentYear1;
-    printf("Enter first dates in format yyyy mm dd.\n");
-    scanf("%i",&year1);
-    scanf("%i",&month1);
-    scanf("%i",&dayOfMonth1);
+    printf("Enter earliest date in format yyyy mm dd.\n");
+    scanf("%i %i %i",&year1, &month1, &dayOfMonth1);
     
     //input year 2
     int year2, month2, dayOfMonth2, daysInCurrentYear2;
-    printf("Enter second dates in format yyyy mm dd.\n");
-    scanf("%i",&year2);
-    scanf("%i",&month2);
-    scanf("%i",&dayOfMonth2);
-    
+    printf("Enter latest date in format yyyy mm dd.\n");
+    scanf("%i %i %i",&year2, &month2, &dayOfMonth2);
     
     //count days in current year 1
     daysInCurrentYear1 = daysInMonth(month1, year1) + dayOfMonth1;
