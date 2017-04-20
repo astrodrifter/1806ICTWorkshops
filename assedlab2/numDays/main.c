@@ -2,7 +2,7 @@
 
 /* My solution
  * (1) Get dates
- * (2) Get days passed in the year of dates given
+ * (2) Calculate days passed in the year of dates given
  *      (a) use ana array with days of each month
  *      (b) check if leep year change feb to 29 days
  * (3) Count years between dates and multiply by 365
