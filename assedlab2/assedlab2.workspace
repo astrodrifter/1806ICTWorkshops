@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="assedlab2" Database="" Version="10.0.0">
+  <Project Name="infinitSeries" Path="infinitSeries/infinitSeries.project" Active="No"/>
+  <Project Name="numDays" Path="numDays/numDays.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="infinitSeries" ConfigName="Debug"/>
+      <Project Name="numDays" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="infinitSeries" ConfigName="Release"/>
+      <Project Name="numDays" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
