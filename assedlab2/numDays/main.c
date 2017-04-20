@@ -42,15 +42,24 @@ int daysInMonth(int month, int year){
 
 int main(int argc, char **argv)
 {
-    //inputs year 1
+    //get inputs
     int year1, month1, dayOfMonth1, daysInCurrentYear1;
-    printf("Enter earliest date in format yyyy mm dd.\n");
-    scanf("%i %i %i",&year1, &month1, &dayOfMonth1);
-    
-    //input year 2
     int year2, month2, dayOfMonth2, daysInCurrentYear2;
-    printf("Enter latest date in format yyyy mm dd.\n");
-    scanf("%i %i %i",&year2, &month2, &dayOfMonth2);
+    
+    int validInput = 0;
+    while(validInput == 0)
+    {
+        //inputs year 1
+        printf("Enter earliest date in format yyyy mm dd.\n");
+        scanf("%i %i %i",&year1, &month1, &dayOfMonth1);
+        
+        //validate
+        //if(year1)
+    
+        //input year 2
+        printf("Enter latest date in format yyyy mm dd.\n");
+        scanf("%i %i %i",&year2, &month2, &dayOfMonth2);
+    }
     
     //count days in current year 1
     daysInCurrentYear1 = daysInMonth(month1, year1) + dayOfMonth1;
