@@ -1,8 +1,16 @@
 #include <stdio.h>
 
-//(1) check if leap year
-//(2) find days in month
-//(3) numDaysBetweenTwoDates
+/* (1) Get dates
+ * (2) Get days passed in the year of dates given
+ *      (a) use ana array with days of each month
+ *      (b) check if leep year change feb to 29 days
+ * (3) Count years between dates and multiply by 365
+ * (5) Count leep years and add count to total of (3)
+ * (6) Add days from (3) and (4) and minus days from (2)
+ *  from the earliest date.
+ * 
+ * Dhruva O'Shea 20/04/17
+ */ 
 
 int isLeapYear(int year){
     if(year%4 == 0 && year%100 !=0){
