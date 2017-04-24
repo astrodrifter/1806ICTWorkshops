@@ -4,9 +4,9 @@
   <Project Name="greeting" Path="greeting/greeting.project" Active="No"/>
   <Project Name="arrayOfStrings" Path="arrayOfStrings/arrayOfStrings.project" Active="No"/>
   <Project Name="allocatingMemory" Path="allocatingMemory/allocatingMemory.project" Active="No"/>
-  <Project Name="passing2DArrays" Path="passing2DArrays/passing2DArrays.project" Active="Yes"/>
+  <Project Name="passing2DArrays" Path="passing2DArrays/passing2DArrays.project" Active="No"/>
   <Project Name="malloc" Path="calloc/calloc.project" Active="No"/>
-  <Project Name="addArray" Path="addArray/addArray.project"/>
+  <Project Name="addArray" Path="addArray/addArray.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
