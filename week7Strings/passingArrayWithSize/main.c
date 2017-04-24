@@ -1,22 +1,10 @@
 #include <stdio.h>
 
+/* PROTOTYPES */
 void fillArray(int a[100][100], int size);
 void printArray(int a[100][100], int size);
 void sumRows(int a[100][100], int size);
-
-/* get size input */
-int getSize()
-{
-	int input;
-	printf("Enter integer N for your N X N array:\n");
-	scanf("%i",&input);
-	printf("Size = %i\n", input);
-	return input;
-}
-
-
-
-
+void sumCols(int a[100][100], int size);
 
 int main(int argc, char **argv)
 {
@@ -27,9 +15,19 @@ int main(int argc, char **argv)
 	fillArray(myArray, size);
 	printArray(myArray, size);
 	sumRows(myArray, size);
-	//sumCols(myArray, size);
+	sumCols(myArray, size);
 	
 	return 0;
+}
+
+/* get size input */
+int getSize()
+{
+	int input;
+	printf("Enter integer N for your N X N array:\n");
+	scanf("%i",&input);
+	printf("Size = %i\n", input);
+	return input;
 }
 
 /* Fills array */
@@ -62,7 +60,7 @@ void printArray(int a[100][100], int size)
 }
 
 /* sum rows */
-void sumRows(int a[100][100], size)
+void sumRows(int a[100][100], int size)
 {
 	int i, j, sum;
 	for(i=0; i<size; i++)
@@ -73,5 +71,20 @@ void sumRows(int a[100][100], size)
 			sum+=a[i][j];
 		}
 		printf("row %i sum = %i\n",i,sum);
+	}
+}
+
+/* sum columns */
+void sumCols(int a[100][100], int size)
+{
+	int i, j, sum;
+	for(i=0; i<size; i++)
+	{
+		sum = 0;
+		for(j=0; j<size; j++)
+		{
+			sum+=a[j][i];
+		}
+		printf("column %i sum = %i\n",i,sum);
 	}
 }
