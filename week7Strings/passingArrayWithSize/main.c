@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+void fillArray(int a[100][100], int size);
+void printArray(int a[100][100], int size);
+void sumRows(int a[100][100], int size);
+
 /* get size input */
 int getSize()
 {
@@ -9,10 +13,29 @@ int getSize()
 	printf("Size = %i\n", input);
 	return input;
 }
-/* Fills array */
-void fillArray(int a[][size], int size)
+
+
+
+
+
+int main(int argc, char **argv)
 {
-	printf("Enter 9 integers\n");
+	/* get size */
+	int size;
+	size = getSize();
+	int myArray[size][size]; 
+	fillArray(myArray, size);
+	printArray(myArray, size);
+	sumRows(myArray, size);
+	//sumCols(myArray, size);
+	
+	return 0;
+}
+
+/* Fills array */
+void fillArray(int a[100][100], int size)
+{
+	printf("Enter %i integers\n",size*3);
 	int i, j;
 	for (i=0; i<size; i++)
 	{
@@ -24,7 +47,7 @@ void fillArray(int a[][size], int size)
 }
 
 /* prints array */
-void printArray(int a[][size], int size)
+void printArray(int a[100][100], int size)
 {
 	printf("You array is\n");
 	int i, j;
@@ -38,14 +61,17 @@ void printArray(int a[][size], int size)
 	}
 }
 
-
-int main(int argc, char **argv)
+/* sum rows */
+void sumRows(int a[100][100], size)
 {
-	/* get size */
-	int size;
-	size = getSize();
-	int myArray[size][size]; 
-	fillArray(myArray, size);
-	printArray(myArray, size);
-	return 0;
+	int i, j, sum;
+	for(i=0; i<size; i++)
+	{
+		sum = 0;
+		for(j=0; j<size; j++)
+		{
+			sum+=a[i][j];
+		}
+		printf("row %i sum = %i\n",i,sum);
+	}
 }

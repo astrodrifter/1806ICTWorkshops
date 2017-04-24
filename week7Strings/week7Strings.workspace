@@ -9,6 +9,7 @@
   <Project Name="addArray" Path="addArray/addArray.project" Active="No"/>
   <Project Name="fillArray" Path="fillArray/fillArray.project" Active="No"/>
   <Project Name="passingArrayWithSize" Path="passingArrayWithSize/passingArrayWithSize.project" Active="Yes"/>
+  <Project Name="globalArray" Path="globalArray/globalArray.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -21,6 +22,7 @@
       <Project Name="addArray" ConfigName="Debug"/>
       <Project Name="fillArray" ConfigName="Debug"/>
       <Project Name="passingArrayWithSize" ConfigName="Debug"/>
+      <Project Name="globalArray" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -33,6 +35,7 @@
       <Project Name="addArray" ConfigName="Release"/>
       <Project Name="fillArray" ConfigName="Release"/>
       <Project Name="passingArrayWithSize" ConfigName="Release"/>
+      <Project Name="globalArray" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
