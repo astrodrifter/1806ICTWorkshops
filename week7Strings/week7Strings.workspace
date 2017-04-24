@@ -6,7 +6,8 @@
   <Project Name="allocatingMemory" Path="allocatingMemory/allocatingMemory.project" Active="No"/>
   <Project Name="passing2DArrays" Path="passing2DArrays/passing2DArrays.project" Active="No"/>
   <Project Name="malloc" Path="calloc/calloc.project" Active="No"/>
-  <Project Name="addArray" Path="addArray/addArray.project" Active="Yes"/>
+  <Project Name="addArray" Path="addArray/addArray.project" Active="No"/>
+  <Project Name="fillArray" Path="fillArray/fillArray.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +18,7 @@
       <Project Name="passing2DArrays" ConfigName="Debug"/>
       <Project Name="malloc" ConfigName="Debug"/>
       <Project Name="addArray" ConfigName="Debug"/>
+      <Project Name="fillArray" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +29,7 @@
       <Project Name="passing2DArrays" ConfigName="Release"/>
       <Project Name="malloc" ConfigName="Release"/>
       <Project Name="addArray" ConfigName="Release"/>
+      <Project Name="fillArray" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
