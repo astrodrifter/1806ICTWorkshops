@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ fillArray - Debug ]----------"
-	@cd "fillArray" && "$(MAKE)" -f  "fillArray.mk"
+	@echo "----------Building project:[ passingArrayWithSize - Debug ]----------"
+	@cd "passingArrayWithSize" && "$(MAKE)" -f  "passingArrayWithSize.mk"
 clean:
-	@echo "----------Cleaning project:[ fillArray - Debug ]----------"
-	@cd "fillArray" && "$(MAKE)" -f  "fillArray.mk" clean
+	@echo "----------Cleaning project:[ passingArrayWithSize - Debug ]----------"
+	@cd "passingArrayWithSize" && "$(MAKE)" -f  "passingArrayWithSize.mk" clean

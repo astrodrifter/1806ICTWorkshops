@@ -32,8 +32,9 @@ void printArray(int a[][3])
 
 int main(int argc, char **argv)
 {
-	int myArray[3][4]; 
+	int myArray[3][3]; 
 	fillArray(myArray);
 	printArray(myArray);
+	
 	return 0;
 }
