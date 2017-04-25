@@ -2,18 +2,29 @@
 
 /* PROTOTYPES */
 void fillArray(int a[100][100], int size);
-void printArray(int a[100][100], int size);
+void printArray(int a[100][100], int b[], int c[], int size);
 void sumRows(int a[100][100], int size);
 void sumCols(int a[100][100], int size);
+void getRowTotals(int a[], int size);
+void getColTotals(int a[], int size);
 
 int main(int argc, char **argv)
 {
 	/* get size */
 	int size;
 	size = getSize();
+	/* get array */
 	int myArray[size][size]; 
 	fillArray(myArray, size);
-	printArray(myArray, size);
+	/* get row totals */
+	int rowTotals[size];
+	getRowTotals(rowTotals,size);
+	/* get column totals */
+	int colTotals[size];
+	getColTotals(colTotals,size);
+	/* print data */
+	printArray(myArray,rowTotals,colTotals,size);
+	/* sum rows and columns */
 	sumRows(myArray, size);
 	sumCols(myArray, size);
 	
@@ -45,9 +56,10 @@ void fillArray(int a[100][100], int size)
 }
 
 /* prints array */
-void printArray(int a[100][100], int size)
+void printArray(int a[100][100], int b[], int c[], int size)
 {
-	printf("You array is\n");
+	/* print puzzle array */
+	printf("\nYou array is:\n");
 	int i, j;
 	for (i=0; i<size; i++)
 	{
@@ -56,6 +68,38 @@ void printArray(int a[100][100], int size)
 			printf("%i ",a[i][j]);
 		}
 		printf("\n");
+	}
+	/* print row totals */
+	printf("\nRow Totals are:\n");
+	int k;
+	for(k=0; k<size; k++)
+	{
+		printf("%i ",b[k]);
+	}
+	/* print column totals */
+	printf("\nColumn Totals are:\n");
+	int l;
+	for(l=0; l<size; l++)
+	{
+		printf("%i ",c[l]);
+	}
+}
+/* get row totals */
+void getRowTotals(a[], int size)
+{
+	int i;
+	for(i=0; i<size; i++)
+	{
+		scanf("%i",a[i]);
+	}
+}
+/* get column totals */
+void getColTotals(a[], int size)
+{
+	int i;
+	for(i=0; i<size; i++)
+	{
+		scanf("%i",a[i]);
 	}
 }
 
