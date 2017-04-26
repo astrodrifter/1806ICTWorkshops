@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ passingArrayWithSize - Debug ]----------"
-	@cd "passingArrayWithSize" && "$(MAKE)" -f  "passingArrayWithSize.mk"
+	@echo "----------Building project:[ stringLength - Debug ]----------"
+	@cd "stringLength" && "$(MAKE)" -f  "stringLength.mk"
 clean:
-	@echo "----------Cleaning project:[ passingArrayWithSize - Debug ]----------"
-	@cd "passingArrayWithSize" && "$(MAKE)" -f  "passingArrayWithSize.mk" clean
+	@echo "----------Cleaning project:[ stringLength - Debug ]----------"
+	@cd "stringLength" && "$(MAKE)" -f  "stringLength.mk" clean
