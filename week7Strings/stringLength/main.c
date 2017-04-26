@@ -1,6 +1,14 @@
+/*This program takers a string (a word) and finds
+ * the amount of characters is contains 
+ * 
+ * Dhruva O'Shea 26/04/17
+ * 
+ * */
+
 #include <stdio.h>
 #include <string.h>
 
+/* set max length for the sting */
 #define MAXLENGTH 50
 
 int main(int argc, char **argv)
@@ -23,5 +31,6 @@ int main(int argc, char **argv)
 		i++;
 	}
 	printf(" Your string is %i characters long\n",count);
+	
 	return 0;
 }
