@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Workspace Name="solvingArrays" Database="" Version="10.0.0">
-  <Project Name="solving2DArrays" Path="solving2DArrays/solving2DArrays.project" Active="Yes"/>
+<CodeLite_Workspace Name="week7StringLaptop" Database="" Version="10.0.0">
+  <Project Name="upperLower" Path="upperLower/upperLower.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="solving2DArrays" ConfigName="Debug"/>
+      <Project Name="upperLower" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="solving2DArrays" ConfigName="Release"/>
+      <Project Name="upperLower" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
