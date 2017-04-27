@@ -13,7 +13,8 @@
   <Project Name="stringLength" Path="stringLength/stringLength.project" Active="No"/>
   <Project Name="lowerToUpper" Path="lowerToUpper/lowerToUpper.project" Active="No"/>
   <Project Name="reverseWord" Path="reverseWord/reverseWord.project" Active="No"/>
-  <Project Name="countAchar" Path="countAchar/countAchar.project" Active="Yes"/>
+  <Project Name="countAchar" Path="countAchar/countAchar.project" Active="No"/>
+  <Project Name="replaceChar" Path="replaceChar/replaceChar.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -31,6 +32,7 @@
       <Project Name="lowerToUpper" ConfigName="Debug"/>
       <Project Name="reverseWord" ConfigName="Debug"/>
       <Project Name="countAchar" ConfigName="Debug"/>
+      <Project Name="replaceChar" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -48,6 +50,7 @@
       <Project Name="lowerToUpper" ConfigName="Release"/>
       <Project Name="reverseWord" ConfigName="Release"/>
       <Project Name="countAchar" ConfigName="Release"/>
+      <Project Name="replaceChar" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

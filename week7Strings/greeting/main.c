@@ -5,13 +5,13 @@
 
 /* Print a simple greeting to the user */
 
-// greet will concatenate a response to user name
+/* greet will concatenate a response to user name */
 void greet(char * name)
 {
 	strcat(name, "! How are ya?");
 }
 
-//Program starts here
+/* Program starts here */
 int main(int argc, char **argv)
 {
 	char user[NAMELEN]; // creates an array for a srting of chars
