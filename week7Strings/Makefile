@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ replaceChar - Debug ]----------"
-	@cd "replaceChar" && "$(MAKE)" -f  "replaceChar.mk"
+	@echo "----------Building project:[ truncate - Debug ]----------"
+	@cd "trancate" && "$(MAKE)" -f  "truncate.mk"
 clean:
-	@echo "----------Cleaning project:[ replaceChar - Debug ]----------"
-	@cd "replaceChar" && "$(MAKE)" -f  "replaceChar.mk" clean
+	@echo "----------Cleaning project:[ truncate - Debug ]----------"
+	@cd "trancate" && "$(MAKE)" -f  "truncate.mk" clean
