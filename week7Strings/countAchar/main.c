@@ -16,14 +16,12 @@
 
 int main(int argc, char **argv)
 	{
-	/* get String */
+	/* get String and char */
 	char word[MAXLENGTH], letter;
 	printf("Enter a string and a char:\n");
 	scanf("%s %c",word,&letter);
-	/* get chart 
-	printf("Enter a char\n");
-	scanf("%c",&letter);
-	count */
+	
+	/* count */
 	int count = 0, i = 0;
 	while(word[i] != 0 && word[i])
 	{
