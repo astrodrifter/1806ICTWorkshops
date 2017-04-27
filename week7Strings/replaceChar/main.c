@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 	printf("Enter a string and two chars format string char char:\n");
 	scanf("%s %c %c",word,&letter, &letter2);
 	
-	/* count */
+	/* loop find char and replace */
 	int i = 0;
 	while(word[i] != 0 && word[i])
 	{
