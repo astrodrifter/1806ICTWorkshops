@@ -16,13 +16,28 @@ int main(int argc, char **argv)
     char sentance[200];
     
     /* message */
-    printf("Enter a sentance\n\n");
+    printf("Enter a sentance\n");
+    
     /* if something is input by user put it in sentance[] */
-    if( fgets ( sentance, 195, stdin)!=NULL ) 
+    int count = 0;
+    if( fgets ( sentance, 195, stdin) != NULL ) 
     {
        /* writing content to stdout */
-       printf("\n\nYour sentance is\n\n");
+       printf("\n\nYour sentance is\n");
        puts(sentance);
+       
+       /* count spacees or word seprations */
+       for(int i = 0; i < 195; i++)
+       {
+           if(sentance[i] == ' ')
+           {
+               count++;
+           }
+       }
+       
+       /* print word count */
+       printf("\nYour sentance has %i words.\n\n", count+1);
+       
     }
 
     /*program finished */
