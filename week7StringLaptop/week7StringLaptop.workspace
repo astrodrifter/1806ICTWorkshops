@@ -5,8 +5,8 @@
   <Project Name="fgetsFromFile" Path="fgetsFromFile/fgetsFromFile.project" Active="No"/>
   <Project Name="fgetsInput" Path="fgetsInput/fgetsInput.project" Active="No"/>
   <Project Name="wordCount" Path="wordCount/wordCount.project" Active="No"/>
-  <Project Name="palindrom" Path="palindrom/palindrom.project" Active="Yes"/>
-  <Project Name="palindrome2" Path="palindrome2/palindrome2.project"/>
+  <Project Name="palindrom" Path="palindrom/palindrom.project" Active="No"/>
+  <Project Name="palindrome2" Path="palindrome2/palindrome2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
