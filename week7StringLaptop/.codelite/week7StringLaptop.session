@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/week7StringLaptop/week7StringLaptop.workspace">
-  <int Value="0" Name="m_selectedTab"/>
+  <int Value="2" Name="m_selectedTab"/>
   <wxString Value="/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/week7StringLaptop/week7StringLaptop.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/week7StringLaptop/upperLower/main.c" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="42" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/week7StringLaptop/reverseString2/main.c" Name="FileName"/>
+      <int Value="1" Name="FirstVisibleLine"/>
+      <int Value="16" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/week7StringLaptop/fgetsFromFile/main.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="8" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/week7StringLaptop/fgetsFromFile/file.txt" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

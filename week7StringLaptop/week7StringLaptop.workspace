@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="week7StringLaptop" Database="" Version="10.0.0">
   <Project Name="upperLower" Path="upperLower/upperLower.project" Active="No"/>
   <Project Name="reverseString2" Path="reverseString2/reverseString2.project" Active="No"/>
-  <Project Name="fgetsFromFile" Path="fgetsFromFile/fgetsFromFile.project" Active="Yes"/>
+  <Project Name="fgetsFromFile" Path="fgetsFromFile/fgetsFromFile.project" Active="No"/>
+  <Project Name="fgetsInput" Path="fgetsInput/fgetsInput.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="upperLower" ConfigName="Debug"/>
       <Project Name="reverseString2" ConfigName="Debug"/>
       <Project Name="fgetsFromFile" ConfigName="Debug"/>
+      <Project Name="fgetsInput" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="upperLower" ConfigName="Release"/>
       <Project Name="reverseString2" ConfigName="Release"/>
       <Project Name="fgetsFromFile" ConfigName="Release"/>
+      <Project Name="fgetsInput" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

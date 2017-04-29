@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ fgetsFromFile - Debug ]----------"
-	@cd "fgetsFromFile" && "$(MAKE)" -f  "fgetsFromFile.mk"
+	@echo "----------Building project:[ fgetsInput - Debug ]----------"
+	@cd "fgetsInput" && "$(MAKE)" -f  "fgetsInput.mk"
 clean:
-	@echo "----------Cleaning project:[ fgetsFromFile - Debug ]----------"
-	@cd "fgetsFromFile" && "$(MAKE)" -f  "fgetsFromFile.mk" clean
+	@echo "----------Cleaning project:[ fgetsInput - Debug ]----------"
+	@cd "fgetsInput" && "$(MAKE)" -f  "fgetsInput.mk" clean
