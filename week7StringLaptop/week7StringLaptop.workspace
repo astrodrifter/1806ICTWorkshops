@@ -4,7 +4,8 @@
   <Project Name="reverseString2" Path="reverseString2/reverseString2.project" Active="No"/>
   <Project Name="fgetsFromFile" Path="fgetsFromFile/fgetsFromFile.project" Active="No"/>
   <Project Name="fgetsInput" Path="fgetsInput/fgetsInput.project" Active="No"/>
-  <Project Name="wordCount" Path="wordCount/wordCount.project" Active="Yes"/>
+  <Project Name="wordCount" Path="wordCount/wordCount.project" Active="No"/>
+  <Project Name="palindrom" Path="palindrom/palindrom.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="fgetsFromFile" ConfigName="Debug"/>
       <Project Name="fgetsInput" ConfigName="Debug"/>
       <Project Name="wordCount" ConfigName="Debug"/>
+      <Project Name="palindrom" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="fgetsFromFile" ConfigName="Release"/>
       <Project Name="fgetsInput" ConfigName="Release"/>
       <Project Name="wordCount" ConfigName="Release"/>
+      <Project Name="palindrom" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
