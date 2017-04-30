@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ palindrom - Debug ]----------"
-	@cd "palindrom" && "$(MAKE)" -f  "palindrom.mk"
+	@echo "----------Building project:[ findString - Debug ]----------"
+	@cd "findString" && "$(MAKE)" -f  "findString.mk"
 clean:
-	@echo "----------Cleaning project:[ palindrom - Debug ]----------"
-	@cd "palindrom" && "$(MAKE)" -f  "palindrom.mk" clean
+	@echo "----------Cleaning project:[ findString - Debug ]----------"
+	@cd "findString" && "$(MAKE)" -f  "findString.mk" clean

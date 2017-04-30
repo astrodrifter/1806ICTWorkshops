@@ -6,7 +6,8 @@
   <Project Name="fgetsInput" Path="fgetsInput/fgetsInput.project" Active="No"/>
   <Project Name="wordCount" Path="wordCount/wordCount.project" Active="No"/>
   <Project Name="palindrom" Path="palindrom/palindrom.project" Active="No"/>
-  <Project Name="palindrome2" Path="palindrome2/palindrome2.project" Active="Yes"/>
+  <Project Name="palindrome2" Path="palindrome2/palindrome2.project" Active="No"/>
+  <Project Name="findString" Path="findString/findString.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +18,7 @@
       <Project Name="wordCount" ConfigName="Debug"/>
       <Project Name="palindrom" ConfigName="Debug"/>
       <Project Name="palindrome2" ConfigName="Debug"/>
+      <Project Name="findString" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +29,7 @@
       <Project Name="wordCount" ConfigName="Release"/>
       <Project Name="palindrom" ConfigName="Release"/>
       <Project Name="palindrome2" ConfigName="Release"/>
+      <Project Name="findString" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

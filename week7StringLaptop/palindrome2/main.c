@@ -1,6 +1,6 @@
-/*Modify your program in Q10 so that blanks and capital letters are ignored in the 
-  matching process. Under these new rules, the following are examples of palindromes:
-  “Anna” “a man a plan a canal Panama” “Amy must I jujitsu my ma”
+/* Modify your program in Q10 so that blanks and capital letters are ignored in the 
+   matching process. Under these new rules, the following are examples of palindromes:
+   “Anna” “a man a plan a canal Panama” “Amy must I jujitsu my ma”
    * 
    * Dhruva O'Shea 30/04/17
    * 
