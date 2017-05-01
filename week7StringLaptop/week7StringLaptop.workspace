@@ -8,7 +8,8 @@
   <Project Name="palindrom" Path="palindrom/palindrom.project" Active="No"/>
   <Project Name="palindrome2" Path="palindrome2/palindrome2.project" Active="No"/>
   <Project Name="findString" Path="findString/findString.project" Active="No"/>
-  <Project Name="removeString" Path="removeString/removeString.project" Active="Yes"/>
+  <Project Name="removeString" Path="removeString/removeString.project" Active="No"/>
+  <Project Name="insertString" Path="insertString/insertString.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -21,6 +22,7 @@
       <Project Name="palindrome2" ConfigName="Debug"/>
       <Project Name="findString" ConfigName="Debug"/>
       <Project Name="removeString" ConfigName="Debug"/>
+      <Project Name="insertString" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -33,6 +35,7 @@
       <Project Name="palindrome2" ConfigName="Release"/>
       <Project Name="findString" ConfigName="Release"/>
       <Project Name="removeString" ConfigName="Release"/>
+      <Project Name="insertString" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
