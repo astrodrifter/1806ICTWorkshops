@@ -5,7 +5,12 @@
  * 
  * Dhruva O'Shea 01/04/17
  * 
+ * algorithm
+    (1) find start
+    (2) shift left from start plus length
+    (3) enter nulls to fill original array
 */
+
 
 #include <stdio.h>
 #include <string.h>
@@ -14,12 +19,7 @@
 
 void removeString(char str[], int start, int length)
 {
-    /* algorithm
-     * find start
-     * find finish
-     * shift left
-     * enter nulls
-     */
+    
      for(int i = start; i < strlen(str); i++)
      {
          if(i > strlen(str) - length)  // if reach end of shortened string
@@ -34,16 +34,24 @@ void removeString(char str[], int start, int length)
 
 int main(int argc, char **argv)
 {   
-	/* program start */ 
-    printf("Enter your string\n");
+	/* program start */
+    printf("Program start.....\n\n");
     char str[MAXLEN];
-    scanf("%s",str);
+    printf("Enter your string\n");
+    if( fgets ( str, 195, stdin) != NULL ) 
+    {
+        int start, length;
+        printf("Enter start element\n");
+        scanf("%i",&start);
+        printf("Enter length\n");
+        scanf("%i",&length);
+        
+        removeString(str, start, length);
     
-    removeString(str, 4, 6);
-    
-    puts(str);
+        puts(str);
+    }
     /*program finished */
-	printf("\nProgram finished .... \n");
+	printf("\nProgram finished .... \n\n");
     
 	return 0;
 }
