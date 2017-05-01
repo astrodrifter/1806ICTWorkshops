@@ -1,4 +1,4 @@
-/*(a) Right a function that find the posistion of a string within another string.
+/*(a) Write a function that finds the posistion of a string within another string.
  * 
  * Dhruva O'Shea 30/04/17
  * 
