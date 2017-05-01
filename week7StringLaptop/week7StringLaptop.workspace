@@ -7,8 +7,8 @@
   <Project Name="wordCount" Path="wordCount/wordCount.project" Active="No"/>
   <Project Name="palindrom" Path="palindrom/palindrom.project" Active="No"/>
   <Project Name="palindrome2" Path="palindrome2/palindrome2.project" Active="No"/>
-  <Project Name="findString" Path="findString/findString.project" Active="No"/>
-  <Project Name="removeString" Path="removeString/removeString.project" Active="Yes"/>
+  <Project Name="findString" Path="findString/findString.project" Active="Yes"/>
+  <Project Name="removeString" Path="removeString/removeString.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
