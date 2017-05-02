@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/week7StringLaptop/week7StringLaptop.workspace">
-  <int Value="5" Name="m_selectedTab"/>
+  <int Value="7" Name="m_selectedTab"/>
   <wxString Value="/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/week7StringLaptop/week7StringLaptop.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
@@ -33,15 +33,29 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/week7StringLaptop/fgetsInput/main.c" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
-      <int Value="23" Name="CurrentLine"/>
+      <int Value="17" Name="FirstVisibleLine"/>
+      <int Value="26" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/week7StringLaptop/insertString/main.c" Name="FileName"/>
-      <int Value="25" Name="FirstVisibleLine"/>
-      <int Value="35" Name="CurrentLine"/>
+      <int Value="58" Name="FirstVisibleLine"/>
+      <int Value="62" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/week7StringLaptop/insertSrting2/main.c" Name="FileName"/>
+      <int Value="23" Name="FirstVisibleLine"/>
+      <int Value="12" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/week7StringLaptop/tutorsQ12/main.c" Name="FileName"/>
+      <int Value="74" Name="FirstVisibleLine"/>
+      <int Value="90" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
