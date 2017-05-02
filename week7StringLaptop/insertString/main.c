@@ -44,18 +44,36 @@ int insertString(char str1[], char str2[], int pos)
 
 int main(int argc, char **argv)
 {
-    char str1[MAXLEN],str2[MAXLEN]; 
-    int pos, test = 1;
-    
-    printf("Enter your first string\n");
-    scanf("%s",str1);
-    printf("Enter your second string\n");
-    scanf("%s",str2);
-    printf("Enter postion to insert\n");
-    scanf("%i",&pos);
+    int test = 1;
     
     while(test)
     {
+        char str1[MAXLEN],str2[MAXLEN]; 
+        int pos;
+    
+        printf("Enter first string\n");
+        if( fgets ( str1, MAXLEN, stdin) != NULL ) 
+        {
+            break;
+        } else {
+            printf("String entery failed");
+        }
+        
+        printf("Enter second string");
+        if( fgets ( str2, MAXLEN, stdin) != NULL ) 
+        {
+             break;
+        } else {
+            printf("String entery failed");
+        }
+        
+        printf("str1 is %s\n",str1);
+        printf("str2 is %s\n",str2);
+        
+        printf("Enter postion to insert\n");
+        scanf("%i",&pos);
+        printf("pos is %s\n",pos);
+        
         test = insertString(str1, str2, pos);
         printf("new str1 is '%s'\n",str1);
     }
