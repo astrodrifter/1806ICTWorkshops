@@ -12,26 +12,29 @@
        
 #include <stdio.h>
 #define MAXLEN 200
-
+struct custDetails
+{
+    char firstName[MAXLEN]; 
+    char lastName[MAXLEN]; 
+};
 struct Order
 {
     char flowerType[MAXLEN];
     int dilveryTime;
     float price;
-    char name[MAXLEN];
-    
+    struct custDetails customer;
 };
 typedef struct Order flowerOrder;
 flowerOrder readOrder ( void )
 {
     flowerOrder newOrder;
-    printf("Enter flower type, days for delivery, price and name:\n ");
-    scanf("%s %i %f %s", newOrder.flowerType, &(newOrder.dilveryTime), &(newOrder.price), newOrder.name);
+    printf("Enter flower type, days for delivery, price, first name and last name:\n ");
+    scanf("%s %i %f %s %s", newOrder.flowerType, &(newOrder.dilveryTime), &(newOrder.price), newOrder.customer.firstName, newOrder.customer.lastName);
     return newOrder;
 }
 void printOrder ( flowerOrder item )
 {
-    printf("\nOrder name: %s\n\n", item.name);
+    printf("\nOrder name: %s %s\n\n", item.customer.firstName, item.customer.lastName);
     printf("Flower type: %s\n\n", item.flowerType);
     printf("Dilvery: %i days\n\n", item.dilveryTime);
     printf("Price: $%.2f \n\n", item.price);
