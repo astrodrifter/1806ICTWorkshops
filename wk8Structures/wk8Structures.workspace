@@ -4,7 +4,8 @@
   <Project Name="typedefArray" Path="typedefArray/typedefArray.project" Active="No"/>
   <Project Name="structFunctions" Path="structFunctions/structFunctions.project" Active="No"/>
   <Project Name="structStack" Path="structStack/structStack.project" Active="No"/>
-  <Project Name="floritsStruct" Path="floritsStruct/floritsStruct.project" Active="Yes"/>
+  <Project Name="floritsStruct" Path="floritsStruct/floritsStruct.project" Active="No"/>
+  <Project Name="studentStruct" Path="studentStruct/studentStruct.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="structFunctions" ConfigName="Debug"/>
       <Project Name="structStack" ConfigName="Debug"/>
       <Project Name="floritsStruct" ConfigName="Debug"/>
+      <Project Name="studentStruct" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="structFunctions" ConfigName="Release"/>
       <Project Name="structStack" ConfigName="Release"/>
       <Project Name="floritsStruct" ConfigName="Release"/>
+      <Project Name="studentStruct" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

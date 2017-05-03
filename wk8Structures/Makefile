@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ floritsStruct - Debug ]----------"
-	@cd "floritsStruct" && "$(MAKE)" -f  "floritsStruct.mk"
+	@echo "----------Building project:[ studentStruct - Debug ]----------"
+	@cd "studentStruct" && "$(MAKE)" -f  "studentStruct.mk"
 clean:
-	@echo "----------Cleaning project:[ floritsStruct - Debug ]----------"
-	@cd "floritsStruct" && "$(MAKE)" -f  "floritsStruct.mk" clean
+	@echo "----------Cleaning project:[ studentStruct - Debug ]----------"
+	@cd "studentStruct" && "$(MAKE)" -f  "studentStruct.mk" clean
