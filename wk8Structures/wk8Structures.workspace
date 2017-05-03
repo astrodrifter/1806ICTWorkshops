@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="wk8Structures" Database="" Version="10.0.0">
+  <Project Name="typedefEg1" Path="lecEg1typeDef/lecEg1typeDef.project" Active="No"/>
+  <Project Name="typedefArray" Path="typedefArray/typedefArray.project" Active="No"/>
+  <Project Name="structFunctions" Path="structFunctions/structFunctions.project" Active="No"/>
+  <Project Name="structStack" Path="structStack/structStack.project" Active="No"/>
+  <Project Name="floritsStruct" Path="floritsStruct/floritsStruct.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="typedefEg1" ConfigName="Debug"/>
+      <Project Name="typedefArray" ConfigName="Debug"/>
+      <Project Name="structFunctions" ConfigName="Debug"/>
+      <Project Name="structStack" ConfigName="Debug"/>
+      <Project Name="floritsStruct" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="typedefEg1" ConfigName="Release"/>
+      <Project Name="typedefArray" ConfigName="Release"/>
+      <Project Name="structFunctions" ConfigName="Release"/>
+      <Project Name="structStack" ConfigName="Release"/>
+      <Project Name="floritsStruct" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
