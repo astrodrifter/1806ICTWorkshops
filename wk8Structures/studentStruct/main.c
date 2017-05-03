@@ -46,10 +46,32 @@ void printStudent(studentEntry item)
 {
     printf("\nStudent name: %s %s\n\n", item.firstName, item.lastName);
     printf("Student ID: %ld\n\n", item.id);
-    printf("English mark: %.2f\n\n", item.markEnglish);
-    printf("Mathematics mark: %.2f\n\n", item.markMath);
-    printf("Physics mark: %.2f\n\n", item.markPhysics);
+    //char gradeEnglish;
+    printf("English grade: %c\n\n", getGrade(item.markEnglish));
+    printf("Mathematics grade: %c\n\n", getGrade(item.markMath));
+    printf("Physics grade: %c\n\n", getGrade(item.markPhysics));
 }
+char getGrade(float mark)
+{
+    char grade;
+    if(90 <= mark  && mark <= 100)
+    {
+        grade = 'A';
+    } else if(80 <= mark && mark < 90) {
+        grade = 'B';
+    } else if(70 <= mark && mark < 80) {
+        grade = 'C';
+    } else if(60 <= mark && mark < 70) {
+        grade = 'D';
+    } else if(50 <= mark && mark < 60) {
+        grade = 'E';
+    } else if(mark < 50) {
+        grade = 'F';
+    }
+    return grade;
+   
+}
+
 int main(int argc, char **argv)
 {
     printf("\n\nProgram starts.....\n\n");
