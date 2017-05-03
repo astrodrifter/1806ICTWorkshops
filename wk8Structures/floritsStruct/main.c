@@ -29,7 +29,8 @@ flowerOrder readOrder ( void )
 {
     flowerOrder newOrder;
     printf("Enter flower type, days for delivery, price, first name and last name:\n ");
-    scanf("%s %i %f %s %s", newOrder.flowerType, &(newOrder.dilveryTime), &(newOrder.price), newOrder.customer.firstName, newOrder.customer.lastName);
+    scanf("%s %i %f %s %s", newOrder.flowerType, &(newOrder.dilveryTime), 
+    &(newOrder.price), newOrder.customer.firstName, newOrder.customer.lastName);
     return newOrder;
 }
 void printOrder ( flowerOrder item )
