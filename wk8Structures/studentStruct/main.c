@@ -15,70 +15,70 @@
 
 #include <stdio.h>
 #define MAXLEN 100
-
-struct Student
+struct name
 {
     char firstName[MAXLEN];
     char lastName[MAXLEN];
-    long int id;
-    float markEnglish;
-    float markMath;
-    float markPhysics;
-    
 };
-typedef struct Student studentEntry;
-studentEntry readInData(void)
+struct record
 {
-    studentEntry newStudent;
-    printf("Enter student first and last name:\n");
-    scanf("%s %s",newStudent.firstName, newStudent.lastName);
-    printf("Enter student ID:\n");
-    scanf("%ld",&(newStudent.id));
-    printf("Enter mark for English:\n");
-    scanf("%f",&(newStudent.markEnglish));
-    printf("Enter mark for Maths:\n");
-    scanf("%f",&(newStudent.markMath));
-    printf("Enter mark for Physics:\n");
-    scanf("%f",&(newStudent.markPhysics));
-    return newStudent;
+    struct name studentName;
+    long int studentID;
+    float engMark;
+    float mathMark;
+    float phyMark;
+    char engGrade;
+    char mathGrade;
+    char phyGrade;
+};
+typedef struct record Record;
+void readRecord(Record *ptr)
+{
+    printf("Enter first name, last name, studentID, and marks for eng, math, phys\n");
+    scanf("%s", ptr->studentName.firstName);
+    scanf("%s", ptr->studentName.lastName);
+    scanf("%ld", &(ptr->studentID));
+    scanf("%f", &(ptr->engMark));
+    scanf("%f", &(ptr->mathMark));
+    scanf("%f", &(ptr->phyMark));
 }
-void printStudent(studentEntry item)
+char grade(float mark)
 {
-    printf("\nStudent name: %s %s\n\n", item.firstName, item.lastName);
-    printf("Student ID: %ld\n\n", item.id);
-    //char gradeEnglish;
-    printf("English grade: %c\n\n", getGrade(item.markEnglish));
-    printf("Mathematics grade: %c\n\n", getGrade(item.markMath));
-    printf("Physics grade: %c\n\n", getGrade(item.markPhysics));
-}
-char getGrade(float mark)
-{
-    char grade;
-    if(90 <= mark  && mark <= 100)
-    {
-        grade = 'A';
-    } else if(80 <= mark && mark < 90) {
-        grade = 'B';
-    } else if(70 <= mark && mark < 80) {
-        grade = 'C';
-    } else if(60 <= mark && mark < 70) {
-        grade = 'D';
-    } else if(50 <= mark && mark < 60) {
-        grade = 'E';
-    } else if(mark < 50) {
-        grade = 'F';
+    if (mark>=90.0 && mark<=100.0)
+        return 'A';
+    else if (mark >= 80.0)
+        return 'B';
+    else if (mark >= 70.0)
+        return 'C';
+    else if (mark >= 60.0)
+        return 'D';
+    else if (mark >= 50.0)
+        return 'E';
+    else
+        return 'F';
     }
-    return grade;
-   
+void determineGrade(Record *ptr)
+{
+    ptr->engGrade = grade(ptr->engMark);
+    ptr->mathGrade = grade(ptr->mathMark);
+    ptr->phyGrade = grade(ptr->phyMark);
 }
+void printRecord(Record *ptr)
+{
+    printf("Name:\t\t%s %s\n", ptr->studentName.firstName, 
+    ptr->studentName.lastName);
 
+    printf("Student ID:\t%ld\n", ptr->studentID);
+    printf("English:\t%c\n", ptr->engGrade);
+    printf("Mathematics:\t%c\n", ptr->mathGrade);
+    printf("Physics:\t%c\n", ptr->phyGrade);
+}
 int main(int argc, char **argv)
 {
-    printf("\n\nProgram starts.....\n\n");
-    studentEntry newStudent;
-    newStudent = readInData();
-    printStudent(newStudent);
-    printf("\nProgram finished.....\n\n");
-
-	return 0;
+    Record studentRecord;
+    readRecord(&studentRecord);
+    // determine the corresponding grade
+    determineGrade(&studentRecord);
+    printRecord(&studentRecord);
+    return 0;
 }
