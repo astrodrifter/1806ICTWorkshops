@@ -11,7 +11,8 @@
   <Project Name="removeString" Path="removeString/removeString.project" Active="No"/>
   <Project Name="insertString" Path="insertString/insertString.project" Active="No"/>
   <Project Name="insertSrting2" Path="insertSrting2/insertSrting2.project" Active="No"/>
-  <Project Name="tutorsQ12" Path="tutorsQ12/tutorsQ12.project" Active="Yes"/>
+  <Project Name="tutorsQ12" Path="tutorsQ12/tutorsQ12.project" Active="No"/>
+  <Project Name="creatingStringFunctions" Path="creatingStringFunctions/creatingStringFunctions.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -27,6 +28,7 @@
       <Project Name="insertString" ConfigName="Debug"/>
       <Project Name="insertSrting2" ConfigName="Debug"/>
       <Project Name="tutorsQ12" ConfigName="Debug"/>
+      <Project Name="creatingStringFunctions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -42,6 +44,7 @@
       <Project Name="insertString" ConfigName="Release"/>
       <Project Name="insertSrting2" ConfigName="Release"/>
       <Project Name="tutorsQ12" ConfigName="Release"/>
+      <Project Name="creatingStringFunctions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
