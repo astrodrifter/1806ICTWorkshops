@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="wk9LinkedLists" Database="" Version="10.0.0">
-  <Project Name="createNode" Path="createNode/createNode.project" Active="Yes"/>
+  <Project Name="createNode" Path="createNode/createNode.project" Active="No"/>
+  <Project Name="linkLists" Path="linkLists/linkLists.project" Active="No"/>
+  <Project Name="lectureEgs" Path="lectureEgs/lectureEgs.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="createNode" ConfigName="Debug"/>
+      <Project Name="linkLists" ConfigName="Debug"/>
+      <Project Name="lectureEgs" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="createNode" ConfigName="Release"/>
+      <Project Name="linkLists" ConfigName="Release"/>
+      <Project Name="lectureEgs" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
