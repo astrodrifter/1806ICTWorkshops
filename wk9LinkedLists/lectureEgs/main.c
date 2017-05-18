@@ -16,5 +16,14 @@ int main(int argc, char **argv)
     c.next = NULL;
     
 	printf("a data = %d\n",a.data);
+    printf("b data = %d\n",b.data);
+    printf("c data = %d\n",c.data);
+    
+    struct list d;
+    d.data = 4;
+    d.next = NULL;
+    
+    printf("d data = %d\n",d.data);
+    
 	return 0;
 }
