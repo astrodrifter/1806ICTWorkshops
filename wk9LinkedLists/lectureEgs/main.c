@@ -143,15 +143,35 @@ int main(int argc, char **argv) {
     /* pointer to HEAD */
     NODE *ptr = NULL;
     
-    ptr = createNode(3);
+    ptr = createNode(2);
     insertHead(ptr);
-    printf("Inserting 3 at head:\t\t");
+    printf("Inserting 2 at head:\t\t");
     printList();
     
     ptr = createNode(4);
-    insertHead(ptr);
-    printf("Inserting 4 at head:\t\t");
+    insertTail(ptr);
+    printf("Inserting 4 at tail:\t\t");
     printList();
     
+    ptr = createNode(3);
+    insertNode(ptr);
+    printf("Inserting 3 at spot:\t\t");
+    printList();
+    
+    ptr = createNode(6);
+    insertTail(ptr);
+    printf("Inserting 6 at tail:\t\t");
+    printList();
+    
+    ptr = createNode(5);
+    insertNode(ptr);
+    printf("Inserting 5 in spot:\t\t");
+    printList();
+    
+    deleteNode(2);
+    printf("deleting node with val 2:\t");
+    printList();
+    
+    ptr = findNode(3);
 	return 0;
 }
