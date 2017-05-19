@@ -2,8 +2,9 @@
 <CodeLite_Workspace Name="wk9LinkedLists" Database="" Version="10.0.0">
   <Project Name="createNode" Path="createNode/createNode.project" Active="No"/>
   <Project Name="linkLists" Path="linkLists/linkLists.project" Active="No"/>
-  <Project Name="lectureEgs" Path="lectureEgs/lectureEgs.project" Active="Yes"/>
+  <Project Name="lectureEgs" Path="lectureEgs/lectureEgs.project" Active="No"/>
   <Project Name="breakDown" Path="breakDown/breakDown.project" Active="No"/>
+  <Project Name="readNstore" Path="readNstore/readNstore.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="linkLists" ConfigName="Debug"/>
       <Project Name="lectureEgs" ConfigName="Debug"/>
       <Project Name="breakDown" ConfigName="Debug"/>
+      <Project Name="readNstore" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="linkLists" ConfigName="Release"/>
       <Project Name="lectureEgs" ConfigName="Release"/>
       <Project Name="breakDown" ConfigName="Release"/>
+      <Project Name="readNstore" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
