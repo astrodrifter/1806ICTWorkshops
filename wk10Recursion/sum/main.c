@@ -9,8 +9,20 @@
  
 #include <stdio.h>
 
+int sum(int n)
+   {
+     if (n <= 1)
+           return n;
+     else
+           return (n + sum(n-1));
+}
+
 int main(int argc, char **argv)
 {
-	printf("hello world\n");
+	int sum1, n;
+	printf("\nEnter n\n");
+	scanf("%i",&n);
+	sum1 = sum(n);
+	printf("sum%i = %i\n",n,sum1);
 	return 0;
 }

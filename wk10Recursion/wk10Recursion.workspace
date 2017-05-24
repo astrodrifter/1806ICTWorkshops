@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="wk10Recursion" Database="" Version="10.0.0">
-  <Project Name="sum" Path="sum/sum.project" Active="Yes"/>
+  <Project Name="sum" Path="sum/sum.project" Active="No"/>
+  <Project Name="power" Path="power/power.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="sum" ConfigName="Debug"/>
+      <Project Name="power" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="sum" ConfigName="Release"/>
+      <Project Name="power" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
