@@ -2,15 +2,15 @@
 // gcd recursively finds greatest common divisor of x and y 
 int gcd(int x, int y)
 {
-    int check;
      // base case
      if (y == 0)
      {
-return x; }
+        return x; 
+    }
      // recursive step
      else
      {
-         return check;
+         return gcd(y, x%y);
      }
 }
 
