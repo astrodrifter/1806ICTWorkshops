@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="examPractice" Database="" Version="10.0.0">
-  <Project Name="Q13recursion" Path="Q13recursion/Q13recursion.project" Active="Yes"/>
+  <Project Name="Q13recursion" Path="Q13recursion/Q13recursion.project" Active="No"/>
+  <Project Name="Q14" Path="Q14/Q14.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="Q13recursion" ConfigName="Debug"/>
+      <Project Name="Q14" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="Q13recursion" ConfigName="Release"/>
+      <Project Name="Q14" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
