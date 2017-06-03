@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Q12 - Debug ]----------"
-	@cd "/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/examPractice/Q12" && "$(MAKE)" -f  "Q12.mk"
+	@echo "----------Building project:[ Q13recursion - Debug ]----------"
+	@cd "Q13recursion" && "$(MAKE)" -f  "Q13recursion.mk"
 clean:
-	@echo "----------Cleaning project:[ Q12 - Debug ]----------"
-	@cd "/Users/dovetales/Desktop/Griffith/1806ICT_Prog_Fund/code/1806ICTWorkshops/examPractice/Q12" && "$(MAKE)" -f  "Q12.mk" clean
+	@echo "----------Cleaning project:[ Q13recursion - Debug ]----------"
+	@cd "Q13recursion" && "$(MAKE)" -f  "Q13recursion.mk" clean
