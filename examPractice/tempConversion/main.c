@@ -14,17 +14,16 @@ void startMessage();
 double getVal();
 double getVal();
 double convert(double cel);
-void printResults(double *celStart, double *celFin, int step);
+void printResults(double celStart, double celFin, double step);
 
 int main(int argc, char **argv)
 {
-    double celStart, celFin; 
-    int step;
+    double celStart, celFin, step;
     startMessage();
     celStart = getVal();
     celFin = getVal();
     step = getVal();
-    printResults(*celStart, *celFin, step);
+    printResults(celStart, celFin, step);
     
     
 	printf("hello world\n");
@@ -36,7 +35,7 @@ void startMessage() {
     printf("0 and 200 degrees aswell as your step size.\n");
 }
 
-int getCel() {
+double getCel() {
     double val;
     scanf("%d",&val);
     return val;
@@ -44,12 +43,12 @@ int getCel() {
 
 double convert(double cel) {
     double fah;
-    fah = cel 9/5 + 32;
+    fah = cel*9/5 + 32;
     return fah;
 }
 
-void printResults(double *celStart, double *celFin, int step) {
-    for(int i = *celStart; i < *celFin; i+step) {
-        printf("%d.2 Celcius = %d.2 Fahrenheit,\n",convert(*celStart+i));
+void printResults(double celStart, double celFin, double step) {
+    for(double i = celStart; i < celFin; i= i+step) {
+        printf("%d.2 Celcius = %d.2 Fahrenheit,\n",celStart+i,convert(celStart+i));
     }
 }
