@@ -10,32 +10,46 @@
 */
 #include <stdio.h>
 
-double getCel();
-double getCel();
+void startMessage();
+double getVal();
+double getVal();
 double convert(double cel);
-
+void printResults(double *celStart, double *celFin, int step);
 
 int main(int argc, char **argv)
 {
-    double celStart, celFin, far;
-    printf("Enter start and end celcius values between 0 and 200 degrees.\n");
-    celStart = get();
-    celFin = get();
-    
+    double celStart, celFin; 
+    int step;
+    startMessage();
+    celStart = getVal();
+    celFin = getVal();
+    step = getVal();
+    printResults(*celStart, *celFin, step);
     
     
 	printf("hello world\n");
 	return 0;
 }
 
+void startMessage() {
+    printf("Enter start and end celcius values between\n");
+    printf("0 and 200 degrees aswell as your step size.\n");
+}
+
 int getCel() {
     double val;
-    scanf("%d",val);
+    scanf("%d",&val);
     return val;
 }
 
 double convert(double cel) {
-    double far;
-    far = cel 9/5 + 32;
-    return far;
+    double fah;
+    fah = cel 9/5 + 32;
+    return fah;
+}
+
+void printResults(double *celStart, double *celFin, int step) {
+    for(int i = *celStart; i < *celFin; i+step) {
+        printf("%d.2 Celcius = %d.2 Fahrenheit,\n",convert(*celStart+i));
+    }
 }
