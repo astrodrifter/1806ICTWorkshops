@@ -11,14 +11,14 @@
 #include <stdio.h>
 
 void startMessage();
-double getVal();
-double getVal();
-double convert(double cel);
-void printResults(double celStart, double celFin, double step);
+int getVal();
+int getVal();
+double convert(int cel);
+void printResults(int celStart, int celFin, int step);
 
 int main(int argc, char **argv)
 {
-    double celStart, celFin, step;
+    int celStart, celFin, step;
     startMessage();
     celStart = getVal();
     celFin = getVal();
@@ -35,20 +35,22 @@ void startMessage() {
     printf("0 and 200 degrees aswell as your step size.\n");
 }
 
-double getCel() {
-    double val;
-    scanf("%d",&val);
+int getCel() {
+    int val;
+    scanf("%i",&val);
     return val;
 }
 
-double convert(double cel) {
+double convert(int cel) {
     double fah;
     fah = cel*9/5 + 32;
     return fah;
 }
 
-void printResults(double celStart, double celFin, double step) {
-    for(double i = celStart; i < celFin; i= i+step) {
-        printf("%d.2 Celcius = %d.2 Fahrenheit,\n",celStart+i,convert(celStart+i));
+void printResults(int celStart, int celFin, int step) {
+    int i = celStart;
+    while(i <= celFin) {
+        printf("%i Celcius = %f Fahrenheit,\n",i,convert(i));
+        i += step;
     }
 }
