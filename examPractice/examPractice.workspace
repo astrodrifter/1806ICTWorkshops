@@ -5,8 +5,8 @@
   <Project Name="Q15RecursiveReverseString" Path="Q15RecursiveReverseString/Q15RecursiveReverseString.project" Active="No"/>
   <Project Name="reverseSenetance" Path="reverseSenetance/reverseSenetance.project" Active="No"/>
   <Project Name="tempConversion" Path="tempConversion/tempConversion.project" Active="No"/>
-  <Project Name="array1" Path="array1/array1.project" Active="No"/>
-  <Project Name="intValidation" Path="intValidation/intValidation.project" Active="Yes"/>
+  <Project Name="array1" Path="array1/array1.project" Active="Yes"/>
+  <Project Name="intValidation" Path="intValidation/intValidation.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
