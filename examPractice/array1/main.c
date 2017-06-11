@@ -9,10 +9,14 @@ int main(int argc, char **argv)
     int myArray[size];
     for(int i = 0; i < size; i ++) {
         scanf("%i",&myArray[i]);
+        if(myArray[i]) 
+            printf("int\n");
+        else
+            printf("not int\n");
     }
     
     for(int i = 0; i < size; i ++) {
-        printf("%i ",&myArray[i]);
+        printf("%i ",myArray[i]);
     }
     
 	return 0;
