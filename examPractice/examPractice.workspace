@@ -4,7 +4,8 @@
   <Project Name="Q14" Path="Q14/Q14.project" Active="No"/>
   <Project Name="Q15RecursiveReverseString" Path="Q15RecursiveReverseString/Q15RecursiveReverseString.project" Active="No"/>
   <Project Name="reverseSenetance" Path="reverseSenetance/reverseSenetance.project" Active="No"/>
-  <Project Name="tempConversion" Path="tempConversion/tempConversion.project" Active="Yes"/>
+  <Project Name="tempConversion" Path="tempConversion/tempConversion.project" Active="No"/>
+  <Project Name="array1" Path="array1/array1.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="Q15RecursiveReverseString" ConfigName="Debug"/>
       <Project Name="reverseSenetance" ConfigName="Debug"/>
       <Project Name="tempConversion" ConfigName="Debug"/>
+      <Project Name="array1" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="Q15RecursiveReverseString" ConfigName="Release"/>
       <Project Name="reverseSenetance" ConfigName="Release"/>
       <Project Name="tempConversion" ConfigName="Release"/>
+      <Project Name="array1" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
