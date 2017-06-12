@@ -5,8 +5,9 @@
   <Project Name="Q15RecursiveReverseString" Path="Q15RecursiveReverseString/Q15RecursiveReverseString.project" Active="No"/>
   <Project Name="reverseSenetance" Path="reverseSenetance/reverseSenetance.project" Active="No"/>
   <Project Name="tempConversion" Path="tempConversion/tempConversion.project" Active="No"/>
-  <Project Name="arraySum" Path="array1/array1.project" Active="Yes"/>
+  <Project Name="arraySum" Path="array1/array1.project" Active="No"/>
   <Project Name="intValidation" Path="intValidation/intValidation.project" Active="No"/>
+  <Project Name="ptr1" Path="ptr1/ptr1.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +18,7 @@
       <Project Name="tempConversion" ConfigName="Debug"/>
       <Project Name="arraySum" ConfigName="Debug"/>
       <Project Name="intValidation" ConfigName="Debug"/>
+      <Project Name="ptr1" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +29,7 @@
       <Project Name="tempConversion" ConfigName="Release"/>
       <Project Name="arraySum" ConfigName="Release"/>
       <Project Name="intValidation" ConfigName="Release"/>
+      <Project Name="ptr1" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
