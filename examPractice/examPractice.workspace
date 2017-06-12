@@ -8,6 +8,7 @@
   <Project Name="arraySum" Path="array1/array1.project" Active="No"/>
   <Project Name="intValidation" Path="intValidation/intValidation.project" Active="No"/>
   <Project Name="ptr1" Path="ptr1/ptr1.project" Active="Yes"/>
+  <Project Name="ptr2" Path="ptr2/ptr2.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -19,6 +20,7 @@
       <Project Name="arraySum" ConfigName="Debug"/>
       <Project Name="intValidation" ConfigName="Debug"/>
       <Project Name="ptr1" ConfigName="Debug"/>
+      <Project Name="ptr2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -30,6 +32,7 @@
       <Project Name="arraySum" ConfigName="Release"/>
       <Project Name="intValidation" ConfigName="Release"/>
       <Project Name="ptr1" ConfigName="Release"/>
+      <Project Name="ptr2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
