@@ -7,8 +7,9 @@
   <Project Name="tempConversion" Path="tempConversion/tempConversion.project" Active="No"/>
   <Project Name="arraySum" Path="array1/array1.project" Active="No"/>
   <Project Name="intValidation" Path="intValidation/intValidation.project" Active="No"/>
-  <Project Name="ptr1" Path="ptr1/ptr1.project" Active="Yes"/>
+  <Project Name="ptr1" Path="ptr1/ptr1.project" Active="No"/>
   <Project Name="ptr2" Path="ptr2/ptr2.project" Active="No"/>
+  <Project Name="swapPtr" Path="copyPtr/copyPtr.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -21,6 +22,7 @@
       <Project Name="intValidation" ConfigName="Debug"/>
       <Project Name="ptr1" ConfigName="Debug"/>
       <Project Name="ptr2" ConfigName="Debug"/>
+      <Project Name="swapPtr" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -33,6 +35,7 @@
       <Project Name="intValidation" ConfigName="Release"/>
       <Project Name="ptr1" ConfigName="Release"/>
       <Project Name="ptr2" ConfigName="Release"/>
+      <Project Name="swapPtr" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
