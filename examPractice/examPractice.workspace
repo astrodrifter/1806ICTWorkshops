@@ -9,7 +9,8 @@
   <Project Name="intValidation" Path="intValidation/intValidation.project" Active="No"/>
   <Project Name="ptr1" Path="ptr1/ptr1.project" Active="No"/>
   <Project Name="ptr2" Path="ptr2/ptr2.project" Active="No"/>
-  <Project Name="swapPtr" Path="copyPtr/copyPtr.project" Active="Yes"/>
+  <Project Name="swapPtr" Path="copyPtr/copyPtr.project" Active="No"/>
+  <Project Name="ptr3" Path="ptr3/ptr3.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -23,6 +24,7 @@
       <Project Name="ptr1" ConfigName="Debug"/>
       <Project Name="ptr2" ConfigName="Debug"/>
       <Project Name="swapPtr" ConfigName="Debug"/>
+      <Project Name="ptr3" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -36,6 +38,7 @@
       <Project Name="ptr1" ConfigName="Release"/>
       <Project Name="ptr2" ConfigName="Release"/>
       <Project Name="swapPtr" ConfigName="Release"/>
+      <Project Name="ptr3" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
