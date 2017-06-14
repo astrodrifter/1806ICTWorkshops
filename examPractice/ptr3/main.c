@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+void rearrange(int *array) {
+    int temp;
+    for(int i = 10; i > 0; i--) {
+        temp = *array;
+        *(array + i) = *(array - i);
+        *(array - i) = temp;
+    }
+}
 void swap(int *a, int *b) {
     int temp;
     temp = *b;
@@ -27,5 +35,13 @@ int main(int argc, char **argv)
         printf("%i ",*arrayPtr + i);
     }
     printf("\n");
+    
+    rearrange(arrayPtr);
+    
+    for(int i = 0; i < 10; i++) {
+        printf("%i ",*arrayPtr + i);
+    }
+    printf("\n");
+    
 	return 0;
 }

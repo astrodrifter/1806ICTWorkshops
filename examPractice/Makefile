@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ ptr3 - Debug ]----------"
-	@cd "ptr3" && "$(MAKE)" -f  "ptr3.mk"
+	@echo "----------Building project:[ countChars - Debug ]----------"
+	@cd "countChars" && "$(MAKE)" -f  "countChars.mk"
 clean:
-	@echo "----------Cleaning project:[ ptr3 - Debug ]----------"
-	@cd "ptr3" && "$(MAKE)" -f  "ptr3.mk" clean
+	@echo "----------Cleaning project:[ countChars - Debug ]----------"
+	@cd "countChars" && "$(MAKE)" -f  "countChars.mk" clean
