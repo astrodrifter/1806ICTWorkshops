@@ -9,14 +9,14 @@ int main(int argc, char **argv)
     double x, y, z;
     
     for(int i = 0; i < 100; i++) {
-        x = rand(); // numbers bewteen 0 and RAND_MAX
+        x = rand(); // Numbers bewteen 0 and RAND_MAX
         y = rand();
         z = rand();
         printf("%.1f %.1f %.1f\n",x,y,z);
     }
     
     for(int i = 0; i < 100; i++) {
-        x = rand()%100; // umbers bewteen 0 and 100
+        x = rand()%100; // Numbers bewteen 0 and 100
         y = rand()%100;
         z = rand()%100;
         printf("%.1f %.1f %.1f\n",x,y,z);
