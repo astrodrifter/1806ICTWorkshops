@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ countChars - Debug ]----------"
-	@cd "countChars" && "$(MAKE)" -f  "countChars.mk"
+	@echo "----------Building project:[ xyzRandom - Debug ]----------"
+	@cd "xyzRandom" && "$(MAKE)" -f  "xyzRandom.mk"
 clean:
-	@echo "----------Cleaning project:[ countChars - Debug ]----------"
-	@cd "countChars" && "$(MAKE)" -f  "countChars.mk" clean
+	@echo "----------Cleaning project:[ xyzRandom - Debug ]----------"
+	@cd "xyzRandom" && "$(MAKE)" -f  "xyzRandom.mk" clean

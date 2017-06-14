@@ -11,7 +11,9 @@
   <Project Name="ptr2" Path="ptr2/ptr2.project" Active="No"/>
   <Project Name="swapPtr" Path="copyPtr/copyPtr.project" Active="No"/>
   <Project Name="ptr3" Path="ptr3/ptr3.project" Active="No"/>
-  <Project Name="countChars" Path="countChars/countChars.project" Active="Yes"/>
+  <Project Name="countChars" Path="countChars/countChars.project" Active="No"/>
+  <Project Name="lowerUpper" Path="lowerUpper/lowerUpper.project" Active="No"/>
+  <Project Name="xyzRandom" Path="xyzRandom/xyzRandom.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -27,6 +29,8 @@
       <Project Name="swapPtr" ConfigName="Debug"/>
       <Project Name="ptr3" ConfigName="Debug"/>
       <Project Name="countChars" ConfigName="Debug"/>
+      <Project Name="lowerUpper" ConfigName="Debug"/>
+      <Project Name="xyzRandom" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -42,6 +46,8 @@
       <Project Name="swapPtr" ConfigName="Release"/>
       <Project Name="ptr3" ConfigName="Release"/>
       <Project Name="countChars" ConfigName="Release"/>
+      <Project Name="lowerUpper" ConfigName="Release"/>
+      <Project Name="xyzRandom" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
