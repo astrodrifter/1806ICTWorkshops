@@ -2,6 +2,7 @@
 #include <ctype.h>
 
 #define MAXLEN 100
+
 void upperLower(char *word) {
     int i = 0;
     while(word[i] != '\0') {
