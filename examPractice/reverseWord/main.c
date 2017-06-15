@@ -28,14 +28,13 @@ void printReverse(char *word) {
 
 void reverse(char *word) {
     char temp;
-    int i = 0, middle = strlen(word)/2;
-    //for(i = 0; i < strlen(word); i++) {
-    while(word[i] < middle+1) {
+    int i, middle = strlen(word)/2;
+    for(i = 0; i < middle; i++) {
         temp = word[i];
         printf("temp = %c",temp);
         word[i] = word[strlen(word)-1-i];
         word[strlen(word)-1-i] = temp;
-        i++;
+
         printf("%s\n",word);
     }
 }
@@ -44,8 +43,8 @@ int main(int argc, char **argv) {
     printf("Enter a word\n");
     scanf("%s",word);
     printf("word before is %s\n",word);
-    //printReverse(word);
-    //shiftLeft(word);
+    printReverse(word);
+    shiftLeft(word);
     reverse(word);
     printf("word after is %s\n",word);
     
