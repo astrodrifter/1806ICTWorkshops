@@ -1,8 +1,5 @@
 #include <time.h>
 #include <stdlib.h>
-
-
-
 int main(int argc, char **argv)
 {
     srand(time(NULL));   // should only be called once

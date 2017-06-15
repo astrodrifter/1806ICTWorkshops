@@ -12,8 +12,8 @@
   <Project Name="swapPtr" Path="copyPtr/copyPtr.project" Active="No"/>
   <Project Name="ptr3" Path="ptr3/ptr3.project" Active="No"/>
   <Project Name="countChars" Path="countChars/countChars.project" Active="No"/>
-  <Project Name="lowerUpper" Path="lowerUpper/lowerUpper.project" Active="No"/>
-  <Project Name="xyzRandom" Path="xyzRandom/xyzRandom.project" Active="Yes"/>
+  <Project Name="lowerUpper" Path="lowerUpper/lowerUpper.project" Active="Yes"/>
+  <Project Name="xyzRandom" Path="xyzRandom/xyzRandom.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
